@@ -70,9 +70,9 @@
 						$image = hb_resize( $thumb, '', 250, 250, true );
 						if ( $image && $sidebar_layout != "metasidebar" ) { 
 					?>
-					<div class="float-left hb-team-member-img">
+					<!--<div class="float-left hb-team-member-img">
 						<img src="<?php echo $image['url']; ?>">
-					</div>
+					</div>-->
 					<?php } ?>
 
 						<?php the_content(); ?>
