@@ -141,9 +141,7 @@
                                     'walker'            =>  new hb_custom_walker
                                     )
                                 );
-                        } else { ?><div class="float-right">
-							<img src="http://localhost/manaslake/wp-content/uploads/2014/09/skyi-icon.png">
-						</div>
+                        } else { ?>
                             <ul id="main-nav" class="empty-menu">
                                 <li>
 								<?php _e('Please attach a menu to this menu location in Appearance > Menu.', 'hbthemes'); ?></li>
