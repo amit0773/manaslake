@@ -19,26 +19,23 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
         $(this).parent().parent().find('[type=checkbox]').removeAttr('checked');
     });
-    $('.vc_settings-tab-control').click(function (e) {
+    $('.vc-settings-tab-control').click(function (e) {
         e.preventDefault();
         if ($(this).hasClass('nav-tab-active')) return false;
         var tab_id = $(this).attr('href');
-        $('.vc_settings-tabs > .nav-tab-active').removeClass('nav-tab-active');
+        $('.vc-settings-tabs > .nav-tab-active').removeClass('nav-tab-active');
         $(this).addClass('nav-tab-active');
-        $('.vc_settings-tab-content').hide().removeClass('vc_settings-tab-content-active');
+        $('.vc-settings-tab-content').hide().removeClass('vc-settings-tab-content-active');
         $(tab_id).fadeIn(400, function () {
-            $(this).addClass('vc_settings-tab-content-active');
-            if(window.css_editor) {
-                window.css_editor.focus();
-            }
+            $(this).addClass('vc-settings-tab-content-active');
         });
     });
-    $('.vc_settings-tab-content').submit(function () {
-        setCookie('wpb_js_composer_settings_active_tab', $('.vc_settings-tab-control.nav-tab-active').attr('href'), 365 * 24 * 60 * 60);
+    $('.vc-settings-tab-content').submit(function () {
+        setCookie('wpb_js_composer_settings_active_tab', $('.vc-settings-tab-control.nav-tab-active').attr('href'), 365 * 24 * 60 * 60);
         return true;
     });
 
-    $('#vc_settings-disable-notification-button').click(function (e) {
+    $('#vc-settings-disable-notification-button').click(function (e) {
         e.preventDefault();
         $.ajax({
             type:'POST',
@@ -54,49 +51,49 @@ jQuery(document).ready(function ($) {
         $helper.toggle(100);
     });
 
-    $('#vc_settings-custom-css-reset-data').click(function (e) {
+    $('#vc-settings-custom-css-reset-data').click(function (e) {
         e.preventDefault();
         if (confirm(window.i18nLocaleSettings.are_you_sure_reset_css_classes)) {
-            $('#vc_settings-element_css-action').val('remove_all_css_classes');
-            $('#vc_settings-element_css').attr('action', window.location.href).trigger('submit');
+            $('#vc-settings-element_css-action').val('remove_all_css_classes');
+            $('#vc-settings-element_css').attr('action', window.location.href).trigger('submit');
         }
     });
     $('.color-control').wpColorPicker();
-    $('#vc_settings-color-restore-default').click(function (e) {
+    $('#vc-settings-color-restore-default').click(function (e) {
         e.preventDefault();
         if (confirm(window.i18nLocaleSettings.are_you_sure_reset_color)) {
-            $('#vc_settings-color-action').val('restore_color');
-            $('#vc_settings-color').attr('action', window.location.href).find('[type=submit]').click();
+            $('#vc-settings-color-action').val('restore_color');
+            $('#vc-settings-color').attr('action', window.location.href).find('[type=submit]').click();
         }
     });
     $('#wpb_js_use_custom').change(function () {
         if ($(this).is(':checked')) {
-            $('#vc_settings-color').addClass('color_enabled');
+            $('#vc-settings-color').addClass('color_enabled');
         } else {
-            $('#vc_settings-color').removeClass('color_enabled');
+            $('#vc-settings-color').removeClass('color_enabled');
 
         }
     });
   var showUpdaterSubmitButton = function() {
-          $('#vc_settings-updater [type=submit]').attr('disabled', false);
+          $('#vc-settings-updater [type=submit]').attr('disabled', false);
       },
       hideUpdaterSubmitButton = function() {
-        $('#vc_settings-updater [type=submit]').attr('disabled', true);
+        $('#vc-settings-updater [type=submit]').attr('disabled', true);
 
       };
 
-  $('#vc_settings-activate-license').click(function(e){
+  $('#vc-settings-activate-license').click(function(e){
     var $button = $(this),
         $username = $('[name=wpb_js_envato_username]'),
         $key = $('[name=wpb_js_js_composer_purchase_code]'),
-        status = $('#vc_settings-license-status').val(),
+        status = $('#vc-settings-license-status').val(),
         $api_key = $('[name=wpb_js_envato_api_key]'),
-        message_html = '<div id="vc_license-activation-message" class="updated vc_updater-result-message hidden"><p><strong>{message}</strong></p></div>';
+        message_html = '<div id="vc-license-activation-message" class="updated vc-updater-result-message hidden"><p><strong>{message}</strong></p></div>';
     if( $button.attr('disabled')===true ) return false;
     $button.attr('disabled', true);
-    $('#vc_license-activation-message').remove();
+    $('#vc-license-activation-message').remove();
     e.preventDefault();
-    $('#vc_updater-spinner').show();
+    $('#vc-updater-spinner').show();
     $.ajax({
       type: 'POST',
       url: window.ajaxurl,
@@ -110,19 +107,19 @@ jQuery(document).ready(function ($) {
     }).done(function(data){
         var code;
         if(data.result && status !== 'activated') {
-          $('#vc_settings-license-status').val('activated');
-          $key.addClass('vc_updater-passive').attr('disabled', true);
-          $username.addClass('vc_updater-passive').attr('disabled', true);
-          $api_key.addClass('vc_updater-passive').attr('disabled', true);
-          $('#vc_settings-activate-license').html(i18nLocaleSettings.vc_updater_deactivate_license);
+          $('#vc-settings-license-status').val('activated');
+          $key.addClass('vc-updater-passive').attr('disabled', true);
+          $username.addClass('vc-updater-passive').attr('disabled', true);
+          $api_key.addClass('vc-updater-passive').attr('disabled', true);
+          $('#vc-settings-activate-license').html(i18nLocaleSettings.vc_updater_deactivate_license);
           message_html = message_html.replace('{message}', i18nLocaleSettings.vc_updater_license_activation_success);
           hideUpdaterSubmitButton();
         } else if(data.result && status === 'activated') {
-          $('#vc_settings-license-status').val('not_activated');
-          $key.removeClass('vc_updater-passive').attr('disabled', false);
-          $username.removeClass('vc_updater-passive').attr('disabled', false);
-          $api_key.removeClass('vc_updater-passive').attr('disabled', false);
-          $('#vc_settings-activate-license').html(i18nLocaleSettings.vc_updater_activate_license);
+          $('#vc-settings-license-status').val('not_activated');
+          $key.removeClass('vc-updater-passive').attr('disabled', false);
+          $username.removeClass('vc-updater-passive').attr('disabled', false);
+          $api_key.removeClass('vc-updater-passive').attr('disabled', false);
+          $('#vc-settings-activate-license').html(i18nLocaleSettings.vc_updater_activate_license);
           message_html = message_html.replace('{message}', i18nLocaleSettings.vc_updater_license_deactivation_success);
           showUpdaterSubmitButton();
         } else {
@@ -149,23 +146,14 @@ jQuery(document).ready(function ($) {
           }
 
         }
-        $(message_html).insertAfter('#vc_settings-activate-license').fadeIn(100);
+        $(message_html).insertAfter('#vc-settings-activate-license').fadeIn(100);
         $button.attr('disabled', false);
-        $('#vc_updater-spinner').hide();
+        $('#vc-updater-spinner').hide();
       }).error(function(data){
-        $(message_html.replace('{message}', i18nLocaleSettings.vc_updater_error)).insertAfter('#vc_settings-activate-license').show(100);
-        $('#vc_updater-spinner').hide();
+        $(message_html.replace('{message}', i18nLocaleSettings.vc_updater_error)).insertAfter('#vc-settings-activate-license').show(100);
+        $('#vc-updater-spinner').hide();
         $button.attr('disabled', false);
       });
   });
-    $css_editor = $('#wpb_csseditor');
-    if( $css_editor.length ) {
-        window.css_editor = new Vc_postSettingsEditor();
-        window.css_editor.setEditor($css_editor.html());
-
-        window.css_editor.getEditor().on("change", function () {
-            $("textarea.custom_css.wpb_csseditor").val(window.css_editor.getValue());
-        });
-    }
 });
 

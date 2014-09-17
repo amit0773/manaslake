@@ -9,7 +9,6 @@ jQuery(document).ready(function($) {
 		$(selector).mapplic({
 			'id': params.id,
 			'width': params.width,
-			 'hovertip': true,
 			'height': params.height
 		});
 

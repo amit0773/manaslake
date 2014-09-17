@@ -96,9 +96,9 @@
 									dynamic_sidebar($sidebar_name);
 							} else if ( $sidebar_layout == 'metasidebar' && ($sidebar_position == "left-sidebar" || $sidebar_position == "right-sidebar" ) ) { ?>
 
-								<div class="team-member-img float-left">
+								<!--<div class="team-member-img float-left">
 									<img src="<?php echo $image['url']; ?>">
-								</div>
+								</div>-->
 								<!-- START .team-member-description -->
 								<div class="team-member-description">
 									<!-- START .team-header-info -->

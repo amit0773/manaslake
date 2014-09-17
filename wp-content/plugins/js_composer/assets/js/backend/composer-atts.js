@@ -47,11 +47,13 @@ var vc = {filters:{templates:[]}, addTemplateFilter:function (callback) {
     _.extend(vc.atts, {
         textarea_html:{
             parse:function (param) {
-                var $field = this.content().find('.textarea_html.' + param.param_name + ''),
+                var $field = this.content().find('textarea.wpb_vc_param_value.' + param.param_name + ''),
                     mce_id = $field.attr('id');
-                return this.window().tinyMCE && this.window().tinyMCE.activeEditor
-                       ? this.window().tinyMCE.activeEditor.save()
-                       : $field.val();
+                // try {
+                return this.window().tinyMCE.activeEditor.save();
+                // } catch (err) {
+                // }
+                return vc_wpnop($field.val()); // !_.isUndefined(window.switchEditors) ? window.switchEditors._wp_Nop($field.val()) : $field.val();
             },
             render:function (param, value) {
                 return _.isUndefined(value) ? value : vc_wpautop(value);
@@ -152,7 +154,7 @@ var vc = {filters:{templates:[]}, addTemplateFilter:function (callback) {
             render:function (param, value) {
                 var $thumbnails = this.$el.find('.attachment-thumbnails[data-name=' + param.param_name + ']'),
                     thumbnails_html = this.$el.data('field-' + param.param_name + '-attach-images');
-                if (_.isUndefined(thumbnails_html) && !_.isEmpty(value)) {
+                if (_.isUndefined(thumbnails_html)) {
                     $.ajax({
                         type:'POST',
                         url:window.ajaxurl,
@@ -165,7 +167,7 @@ var vc = {filters:{templates:[]}, addTemplateFilter:function (callback) {
                     }).done(function (html) {
                             vc.atts.attach_images.updateImages($thumbnails, html);
                         });
-                } else if(!_.isUndefined(thumbnails_html)) {
+                } else {
                     this.$el.removeData('field-' + param.param_name + '-attach-images');
                     vc.atts.attach_images.updateImages($thumbnails, thumbnails_html);
                 }
@@ -201,8 +203,8 @@ var vc = {filters:{templates:[]}, addTemplateFilter:function (callback) {
             render:function (param, value) {
                 var image_src = $('[data-model-id=' + this.model.id + ']').data('field-' + param.param_name + '-attach-image');
                 var $thumbnail = this.$el.find('.attachment-thumbnail[data-name=' + param.param_name + ']');
-                if (_.isUndefined(image_src) && !_.isEmpty(value)) {
-                  $.ajax({
+                if (_.isUndefined(image_src)) {
+                    $.ajax({
                         type:'POST',
                         url:window.ajaxurl,
                         data:{
@@ -214,7 +216,7 @@ var vc = {filters:{templates:[]}, addTemplateFilter:function (callback) {
                     }).done(function (src) {
                             vc.atts['attach_image'].updateImage($thumbnail, src);
                         });
-                } else if(!_.isUndefined(image_src)) {
+                } else {
                     $('[data-model-id=' + this.model.id + ']').removeData('field-' + param.param_name + '-attach-image');
                     vc.atts['attach_image'].updateImage($thumbnail, image_src);
                 }
@@ -230,55 +232,7 @@ var vc = {filters:{templates:[]}, addTemplateFilter:function (callback) {
                     $thumbnail.next().addClass('image-exists').next().addClass('image-exists');
                 }
             }
-        },
-        google_fonts:{
-            parse:function(param) {
-                var $field = this.content().find('.wpb_vc_param_value[name=' + param.param_name + ']');
-                var $block = $field.parent();
-                var options = {},
-                    string_pieces = [],
-                    string = '';
-                options.font_family = $block.find('.vc_google_fonts_form_field-font_family-select > option:selected').val();
-                options.font_style = $block.find('.vc_google_fonts_form_field-font_style-select > option:selected').val();
-                string_pieces = _.map(options, function(value, key){
-                    if(_.isString(value) && value.length > 0) {
-                        return key + ':' + encodeURIComponent(value);
-                    }
-                });
-                string = $.grep(string_pieces , function(value){
-                    return _.isString(value) && value.length > 0;
-                }).join('|');
-                return string;
-            }
-        },
-        font_container:{
-            parse:function(param) {
-                var $field = this.content().find('.wpb_vc_param_value[name=' + param.param_name + ']');
-                var $block = $field.parent();
-                var options = {},
-                    string_pieces = [],
-                    string = '';
-                options.tag = $block.find('.vc_font_container_form_field-tag-select > option:selected').val();
-                options.font_size = $block.find('.vc_font_container_form_field-font_size-input').val();
-                options.text_align = $block.find('.vc_font_container_form_field-text_align-select > option:selected').val();
-                options.font_family = $block.find('.vc_font_container_form_field-font_family-select > option:selected').val();
-                options.color = $block.find('.vc_font_container_form_field-color-input').val();
-                options.line_height = $block.find('.vc_font_container_form_field-line_height-input').val();
-                options.font_style_italic = $block.find('.vc_font_container_form_field-font_style-checkbox.italic').is(':checked') ? "1":"";
-                options.font_style_bold = $block.find('.vc_font_container_form_field-font_style-checkbox.bold').is(':checked') ? "1":"";
-                string_pieces = _.map(options, function(value, key){
-                    if(_.isString(value) && value.length > 0) {
-                        return key + ':' + encodeURIComponent(value);
-                    }
-                });
-                string = $.grep(string_pieces , function(value){
-                    return _.isString(value) && value.length > 0;
-                }).join('|');
-                return string;
-            }
         }
     });
-    vc.getMapped = function(tag) {
-      return vc.map[tag] || {};
-    }
+
 })(window.jQuery);

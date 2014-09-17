@@ -14,7 +14,6 @@
      * @type {*}
      */
     vc.shortcode = Backbone.Model.extend({
-        settings: false,
         defaults:function () {
             var id = window.vc_guid();
             return {
@@ -64,9 +63,6 @@
                 options.error("Record not found");
             }
         },
-        getParam: function(key) {
-          return _.isObject(this.get('params')) && !_.isUndefined(this.get('params')[key]) ? this.get('params')[key] : '';
-        },
         /**
          * Remove all children of model from storage.
          * Will remove children of children models too.
@@ -80,10 +76,6 @@
                 this.removeChildren(model);
             }, this);
             if (models.length) vc.storage.save();
-        },
-        setting: function(name) {
-          if(this.settings === false) this.settings = vc.getMapped(this.get('shortcode')) || {};
-          return this.settings[name];
         }
     });
     /**

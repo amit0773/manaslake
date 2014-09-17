@@ -10,195 +10,9 @@
 		self.o = {
 			id: 0,
 			height: 420,
-			hovertip: true,
-			locations: true,
-			minimap: true,
-			sidebar: true,
-			search: true,
-			clearbutton: true,
-			hovertip: true,
-			fullscreen: false,
-			developer: false,
-			animate: true,
-			maxscale: 4
+			width: 0
 		};
-// Tooltip
-		function Tooltip() {
-			this.el = null;
-			this.shift = 6;
-			this.drop = 0;
 
-			this.init = function() {
-				var s = this;
-
-				// Construct
-				this.el = $('<div></div>').addClass('im-tooltip');
-				$('<a></a>').addClass('im-tooltip-close').attr('href', '#').click(function(e) {
-					e.preventDefault();
-					self.deeplinking.clear();
-					s.hide();
-				}).appendTo(this.el);
-				this.lef = $('<div></div>').addClass('im-tooltip-left').appendTo(this.el);
-				this.image = $('<img>').addClass('im-tooltip-image').hide().appendTo(this.lef);
-				this.raig = $('<div></div>').addClass('im-tooltip-right').appendTo(this.el);
-				this.title = $('<h4></h4>').addClass('im-tooltip-title').appendTo(this.raig);
-				this.content = $('<div></div>').addClass('im-tooltip-content').appendTo(this.raig);
-				this.desc = $('<div></div>').addClass('im-tooltip-description').appendTo(this.content);
-				this.link = $('<a>Consultar Detalle</a>').addClass('im-tooltip-link').attr('href', '#').hide().appendTo(this.content);
-				$('<div></div>').addClass('im-tooltip-triangle').prependTo(this.el);
-
-				// Append
-				self.map.append(this.el);
-			}
-
-			this.set = function(location) {
-				if (location) {
-					if (location.action == 'none') {
-						this.el.stop().fadeOut(300);
-						return;
-					}
-
-					var s = this;
-
-					if (location.image) this.image.attr('src', location.image).show();
-					else this.image.hide();
-
-					if (location.link) this.link.attr('href', location.link).show();
-					else this.link.hide();
-
-					this.title.text(location.title);
-					this.desc.html(location.description);
-
-					// Shift
-					var pinselect = $('.im-pin[data-location="' + location.id + '"]');
-					if (pinselect.length == 0) {
-						this.shift = 6;
-					}
-					else this.shift = pinselect.height() + 6;
-
-					// Loading & positioning
-					$('img', this.desc).load(function() {
-						s.position(location);
-					});
-
-					this.position(location);
-				}
-			}
-
-			this.show = function(location) {
-				if (location) {
-					if (location.action == 'none') {
-						this.el.stop().fadeOut(300);
-						return;
-					}
-
-					var s = this;
-
-					if (location.image) this.image.attr('src', location.image).show();
-					else this.image.hide();
-
-					if (location.link) this.link.attr('href', location.link).show();
-					else this.link.hide();
-
-					this.title.text(location.title);
-					this.desc.html(location.description);
-
-					// Shift
-					var pinselect = $('.im-pin[data-location="' + location.id + '"]');
-					if (pinselect.length == 0) {
-						this.shift = 6;
-					}
-					else this.shift = pinselect.height() + 6;
-
-					// Loading & positioning
-					$('img', this.desc).load(function() {
-						s.position(location);
-					});
-
-					this.position(location);
-				
-					// Making it visible
-					this.el.stop().fadeIn(200).show();
-				}
-			}
-
-			this.position = function(location) {
-				var x = location.x * 100;
-					y = location.y * 100;
-					mt = -this.el.outerHeight() - this.shift,
-					ml = -this.el.outerWidth() / 2;
-				this.el.css({
-					left: x + '%',
-					top: y + '%',
-					marginTop: mt,
-					marginLeft: ml
-				});
-				this.drop = this.el.outerHeight() + this.shift;
-			}
-
-			this.hide = function() {
-				var s = this;
-				
-				this.el.stop().fadeOut(300, function() {
-					s.desc.empty();
-				});
-			}
-		}
-// HoverTooltip
-		function HoverTooltip() {
-			this.el = null;
-			this.shift = 6;
-
-			this.init = function() {
-				var s = this;
-
-				// Construct
-				this.el = $('<div></div>').addClass('im-tooltip im-hovertip');
-				this.title = $('<h4></h4>').addClass('im-tooltip-title').appendTo(this.el);
-				$('<div></div>').addClass('im-tooltip-triangle').appendTo(this.el);
-
-				// Events
-				$(self.map).on('mouseover', '.im-layer a', function() {
-					var data = '';
-					if ($(this).hasClass('im-pin')) {
-						data = $(this).data('location');
-						s.shift = $(this).height() + 6;
-					}
-					else {
-						data = $(this).attr('xlink:href').slice(1);
-						s.shift = 6;
-					}
-
-					var location = getLocationData(data);
-					if (location) s.show(location);
-				}).on('mouseout', function() {
-					s.hide();
-				});
-
-				self.map.append(this.el);
-			}
-
-			this.show = function(location) {
-				this.title.text(location.title);
-
-				var x = location.x * 100,
-					y = location.y * 100,
-					mt = -this.el.outerHeight() - this.shift,
-					ml = -this.el.outerWidth() / 2;
-				this.el.css({
-					left: x + '%',
-					top: y + '%',
-					marginTop: mt,
-					marginLeft: ml
-				});
-
-				this.el.stop().fadeIn(100);
-			}
-
-			this.hide = function() {
-				this.el.stop().fadeOut(200);
-			}
-		}
 		self.init = function(el, params) {
 			// Extend options
 			self.o = $.extend(self.o, params);
@@ -423,7 +237,7 @@
 				// Check hash for location
 				var id = location.hash.slice(1);
 				if (id) self.showLocation(id, 0);
-				else self.zoomTo(0.5, 0.5, 1.2, 0);
+				else self.zoomTo(0.5, 0.5, 1, 0);
 
 			}).fail(function() {
 				// Couldn't load map data from database, or it is invalid.
@@ -556,7 +370,7 @@
 					height: newH,
 					left: newX,
 					top: newY
-				}, 600, 'easeOutExpo');
+				}, 200, 'easeOutExpo');
 
 				map.data('newX', newX);
 				map.data('newY', newY);
@@ -581,7 +395,6 @@
 
 		self.showTooltip = function(location) {
 			self.tooltip.hide();
-			self.tooltip..addClass("important");
 			if (location.image) $('img', self.tooltip).attr('src', location.image).show();
 			else $('img', self.tooltip).hide();
 			if (location.link) $('a', self.tooltip).attr('href', location.link).show();
@@ -719,7 +532,7 @@
 			$.each(self.data.levels, function(index, layer) {
 				$.each(layer.locations, function(index, value) {
 					if (value.id == id) {
-						var zoom = 8;//typeof value.zoom !== 'undefined' ? value.zoom : 4;
+						var zoom = 4;//typeof value.zoom !== 'undefined' ? value.zoom : 4;
 						self.level(layer.id);
 						self.zoomTo(value.x, value.y, zoom, duration);
 					}

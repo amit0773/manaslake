@@ -15,14 +15,14 @@
     /**
      * @constructor
      */
-    vc.Storage = function () {
+    var Storage = function () {
         this.data = {};
     };
     /**
      * CRUD methods for content management.
      * @type {Object}
      */
-    vc.Storage.prototype = {
+    Storage.prototype = {
         url:window.ajaxurl,
         checksum:false,
         locked:false,
@@ -369,7 +369,7 @@
 
         })
     };
-    vc.storage = new vc.Storage();
+    vc.storage = new Storage();
 
     vc.test = {
         a:_.memoize(function (a) {
