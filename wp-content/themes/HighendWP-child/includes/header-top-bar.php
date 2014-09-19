@@ -46,7 +46,7 @@ if ( class_exists('Woocommerce') ) {
             echo $top_header_container;
         }
         ?>"><div id="top-map-widget" class="top-widget float-left">
-        <a href="#" ><i class="hb-moon-menu-3"></i> MENU</a>
+        <a href="#" id="show-nav-menu" class="sm-font"><i class="hb-moon-menu-3"></i> MENU</a>
 		</div>
 <!-- menu-->
 
