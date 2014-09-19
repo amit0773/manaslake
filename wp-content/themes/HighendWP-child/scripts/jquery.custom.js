@@ -269,7 +269,6 @@ function hb_header_dropdown() {
 
 }
 
-
 /* Show Scroll Top */
 function hb_scroll_top_init() {
 	
@@ -1970,3 +1969,6 @@ function hb_modal_on_load(){
 		}
 	}
 }
+
+
+	

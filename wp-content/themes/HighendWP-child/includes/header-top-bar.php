@@ -64,7 +64,7 @@ if ( class_exists('Woocommerce') ) {
         <a href="#" id="show-map-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/map.png"/></a>
     </div>
 	<div id="top-map-widget" class="top-widget float-right">
-        <a href="#" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/play.png"/></a>
+        <a href="#" id="show-map-button2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/play.png"/></a>
     </div>
 	
 	   <div id="top-map-widget" class="top-widget float-right">
@@ -78,7 +78,7 @@ if ( class_exists('Woocommerce') ) {
     ?>
         <!-- BEGIN .top-widget Email -->
         <div class="top-widget float-right ">
-            <a href="mailto:<?php echo $header_left_email; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mail.png"/></a>
+            <a  href="mailto:<?php echo $header_left_email; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mail.png"/></a>
         </div>
         <!-- END .top-widget -->
     <?php } 
@@ -269,8 +269,33 @@ if ( hb_options('hb_enable_custom_pin') ){
     $data_map_img = ' data-map-img="' . hb_options('hb_custom_marker_image') . '"';
 }
 ?>
-
+	
 <div id="header-dropdown">
     <div id="contact-map" data-map-level="<?php echo hb_options('hb_map_zoom'); ?>" data-map-lat="<?php echo hb_options('hb_map_latitude') ?>" data-map-lng="<?php echo hb_options('hb_map_longitude'); ?>" data-map-img="<?php echo hb_options('hb_custom_marker_image'); ?>" data-overlay-color="<?php if ( hb_options('hb_enable_map_color') ) { echo hb_options('hb_map_focus_color'); } else { echo 'none'; } ?>"></div>
+    <div class="close-map"><i class="hb-moon-close-2"></i></div>
+</div>
+
+<div id="header-dropdown2" class="download">
+    <div id="download" >
+	<div class="container">
+	
+		
+		<div class="row  main-row">
+			<div class="col-4">
+			<iframe width="100%" height="250px" src="//www.youtube.com/embed/VLM4l8Fvryc" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-4">
+			<iframe width="100%" height="250px" src="//www.youtube.com/embed/VLM4l8Fvryc" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-4">
+			<iframe width="100%" height="250px" src="//www.youtube.com/embed/VLM4l8Fvryc" frameborder="0" allowfullscreen></iframe>
+			</div>
+		
+
+		</div>
+		<!-- END .row -->
+
+	</div>
+	</div>
     <div class="close-map"><i class="hb-moon-close-2"></i></div>
 </div>

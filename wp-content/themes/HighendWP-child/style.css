@@ -198,3 +198,11 @@ and (max-device-width : 1024px) {
 	font-size:14px !important;
 }
 
+
+#header-dropdown2{position:relative;top:0;height:0;opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);-moz-opacity:0;background-image:url(images/preloader.gif);background-repeat:no-repeat;background-position:center center;background-color:#292929;overflow:hidden;z-index:3;}
+#header-dropdown2 .close-map{position:absolute;right:30px;top:30px;width:40px;height:40px;background:#323436;color:#FFF;line-height:40px;font-size:18px;text-align:center;opacity:0.7;cursor:pointer;transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+#header-dropdown2 .close-map:hover{opacity:1;}
+#header-dropdown2 .close-map:hover{background: #ff6600;}
+#header-dropdown2 #download{ margin-top: 5%;}
+
+#header-dropdown2 .close-map .hb-moon-close-2 {margin-left: -1px;}
