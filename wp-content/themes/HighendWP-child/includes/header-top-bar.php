@@ -68,7 +68,7 @@ if ( class_exists('Woocommerce') ) {
     </div>
 	
 	   <div id="top-map-widget" class="top-widget float-right">
-        <a href="#" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mail.png"/></a>
+        <a href="#" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/download.png"/></a>
     </div>
     <!-- END .top-widget -->
     <?php } 
