@@ -105,6 +105,12 @@ and (max-width : 1024px) {
 .main-navigation{
 	display:block !important;
 }
+.tp-caption{
+	left:30px !important;
+}
+#main-content {
+	padding-top: 100px!important;
+}
 }
 @media only screen 
 and (min-device-width : 768px) 
@@ -116,10 +122,15 @@ and (max-device-width : 1024px) {
 .main-navigation{
 	display:block !important;
 	}
+.tp-caption{
+	left:30px !important;
+}
+#main-content {
+	padding-top: 100px!important;
+}
 }
 
 .sm-font{
 	font-size:14px !important;
 }
 
-b
