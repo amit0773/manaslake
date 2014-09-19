@@ -46,7 +46,7 @@ if ( class_exists('Woocommerce') ) {
             echo $top_header_container;
         }
         ?>"><div id="top-map-widget" class="top-widget float-left">
-        <a href="#" id="show-nav-menu" class="sm-font"><i class="hb-moon-menu-3"></i> MENU</a>
+        <a href="#" id="show-nav-menu" class="sm-font"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/menu.png"/> MENU</a>
 		</div>
 <!-- menu-->
 
@@ -61,14 +61,14 @@ if ( class_exists('Woocommerce') ) {
     if ( hb_options('hb_top_header_map') ) { ?>
     <!-- BEGIN .top-widget Map -->
     <div id="top-map-widget" class="top-widget float-right">
-        <a href="#" id="show-map-button"><i class="hb-moon-location-4"></i></a>
+        <a href="#" id="show-map-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/map.png"/></a>
     </div>
 	<div id="top-map-widget" class="top-widget float-right">
-        <a href="#" ><i class="hb-moon-play"></i></a>
+        <a href="#" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/play.png"/></a>
     </div>
 	
 	   <div id="top-map-widget" class="top-widget float-right">
-        <a href="#" ><i class="hb-moon-download"></i></a>
+        <a href="#" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mail.png"/></a>
     </div>
     <!-- END .top-widget -->
     <?php } 
@@ -78,7 +78,7 @@ if ( class_exists('Woocommerce') ) {
     ?>
         <!-- BEGIN .top-widget Email -->
         <div class="top-widget float-right ">
-            <a href="mailto:<?php echo $header_left_email; ?>"><i class="hb-moon-envelop"></i></a>
+            <a href="mailto:<?php echo $header_left_email; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mail.png"/></a>
         </div>
         <!-- END .top-widget -->
     <?php } 
@@ -87,7 +87,7 @@ if ( class_exists('Woocommerce') ) {
         ?>
         <!-- BEGIN .top-widget Information -->
         <div id="top-info-widget" class="top-widget float-right <?php if (!$header_left_email) echo 'clear-r-margin'; ?>">
-            <p><i class="hb-moon-arrow-right-5"></i><?php echo $header_left_text; ?></p>
+            <p><?php echo $header_left_text; ?></p>
         </div>
         <!-- END .top-widget -->
     <?php } 

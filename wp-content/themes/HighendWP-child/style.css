@@ -143,7 +143,11 @@ body{
 	}
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-
+#header-bar {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	line-height: 32px !important;
+}
 .home  #header-inner.stuck {
 	display:block !important;
 }
