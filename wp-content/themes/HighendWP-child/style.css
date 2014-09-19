@@ -1,17 +1,77 @@
 /*
- Theme Name:   Highend Child
- Theme URI:    http://preview.hb-themes.com/?theme=Highend
+ Theme Name:   Manas Lake
+ Theme URI:    http://www.manaslake.com
  Description:  A Flexible, Powerful & Beautiful WordPress Theme by HB-Themes. Mobile ready and optimized for best performance. With the powerful engine and user friendly interface it will allow you to build outstanding websites quick and easy... It comes with Premium Plugins integrated into the theme.
- Author:       HB-Themes
- Author URI:   http://www.hb-themes.com
- Template:     HighendWP
+ Author:       Ajency.in
+ Author URI:   http://www.ajency.in
+ Template:     Manas Lake
  Version:      1.0.0
  Tags:		   Responsive, Page-Builder, Drag&Drop, Clean, Modern, Corporate, Multi-Purpose, Multi-Color
- Text Domain:  hbthemes
+ Text Domain:  Manaslake
 */
 
 @import url("../HighendWP/style.css");
 
+@font-face {
+  font-family: 'kievit';
+  src: url('../fonts/kievitot-thin-webfont.eot');
+  src: url('../fonts/kievitot-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/kievitot-thin-webfont.woff') format('woff'), url('../fonts/kievitot-thin-webfont.ttf') format('truetype'), url('../fonts/kievitot-thin-webfont.svg#kievit_otthin') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'kievit';
+  src: url('../fonts/kievitot-light-webfont.eot');
+  src: url('../fonts/kievitot-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/kievitot-light-webfont.woff') format('woff'), url('../fonts/kievitot-light-webfont.ttf') format('truetype'), url('../fonts/kievitot-light-webfont.svg#kievit_otlight') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'kievit';
+  src: url('../fonts/kievitot-regular-webfont.eot');
+  src: url('../fonts/kievitot-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/kievitot-regular-webfont.woff') format('woff'), url('../fonts/kievitot-regular-webfont.ttf') format('truetype'), url('../fonts/kievitot-regular-webfont.svg#kievit_otlight') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'kievit';
+  src: url('../fonts/kievitot-italic-webfont.eot');
+  src: url('../fonts/kievitot-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/kievitot-italic-webfont.woff') format('woff'), url('../fonts/kievitot-italic-webfont.ttf') format('truetype'), url('../fonts/kievitot-italic-webfont.svg#kievit_otitalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'kievit';
+  src: url('../fonts/kievitot-medium-webfont.eot');
+  src: url('../fonts/kievitot-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/kievitot-medium-webfont.woff') format('woff'), url('../fonts/kievitot-medium-webfont.ttf') format('truetype'), url('../fonts/kievitot-medium-webfont.svg#kievit_otmedium') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'kievit';
+  src: url('../fonts/kievitot-mediumitalic-webfont.eot');
+  src: url('../fonts/kievitot-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/kievitot-mediumitalic-webfont.woff') format('woff'), url('../fonts/kievitot-mediumitalic-webfont.ttf') format('truetype'), url('../fonts/kievitot-mediumitalic-webfont.svg#kievit_otmedium_italic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'kievit';
+  src: url('../fonts/kievitot-bolditalic-webfont.eot');
+  src: url('../fonts/kievitot-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/kievitot-bolditalic-webfont.woff') format('woff'), url('../fonts/kievitot-bolditalic-webfont.ttf') format('truetype'), url('../fonts/kievitot-bolditalic-webfont.svg#kievit_otbold_italic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'kievit' ;
+  src: url('../fonts/kievitot-bold-webfont.eot');
+  src: url('../fonts/kievitot-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/kievitot-bold-webfont.woff') format('woff'), url('../fonts/kievitot-bold-webfont.ttf') format('truetype'), url('../fonts/kievitot-bold-webfont.svg#kievit_otbold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+	font-family: 'kievit' !important;
+	}
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
@@ -23,6 +83,9 @@
 }
 .main-navigation{
 	display:none;
+}
+#main-content {
+	overflow: visible!important;
 }
 @media only screen 
 and (max-width : 1024px) {
@@ -43,9 +106,9 @@ and (max-device-width : 1024px) {
 }
 .main-navigation{
 	display:block !important;
-}
+	}
 }
 
 .sm-font{
-font-size:14px !important;
+	font-size:14px !important;
 }
