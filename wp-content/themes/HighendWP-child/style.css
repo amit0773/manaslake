@@ -14,3 +14,38 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+.home  #header-inner.stuck {
+	display:block !important;
+}
+.home  #header-inner{
+	display:none ;
+}
+.main-navigation{
+	display:none;
+}
+@media only screen 
+and (max-width : 1024px) {
+/* Styles */
+.home  #header-inner{
+	display:block !important;
+}
+.main-navigation{
+	display:block !important;
+}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+.home  #header-inner{
+	display:block !important;
+}
+.main-navigation{
+	display:block !important;
+}
+}
+
+.sm-font{
+font-size:14px !important;
+}
