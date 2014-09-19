@@ -1,3 +1,4 @@
+
 /*
  Theme Name:   Manas Lake
  Theme URI:    http://www.manaslake.com
@@ -11,6 +12,14 @@
 */
 
 @import url("../HighendWP/style.css");
+
+dl {
+    margin-bottom: 0px;
+}
+
+#gallery-1 .gallery-item, #gallery-2 .gallery-item {
+    margin-top: 0px !important;
+}
 
 @font-face {
   font-family: 'kievit';
@@ -112,3 +121,5 @@ and (max-device-width : 1024px) {
 .sm-font{
 	font-size:14px !important;
 }
+
+b
