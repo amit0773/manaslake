@@ -206,10 +206,19 @@ and (max-device-width : 1024px) {
 .home #header-inner{
 	display:none;
 }
+.home #hb-header {
+	position:fixed;
+}
 .home #header-bar{
 	display:none;
 }
+.home #header-bar i{
+	vertical-align:0;
+	margin-right:0px;
+	font-size: 32px;
+	
+}
 .home #header-bar.darkHeader {
-display:block;
-position:fixed;
+	display:block;
+	position:fixed;
 }
