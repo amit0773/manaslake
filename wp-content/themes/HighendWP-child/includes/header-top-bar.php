@@ -232,7 +232,34 @@ if ( class_exists('Woocommerce') ) {
 
     </div>
     <!-- END .container or .container-wide -->
+	<div id="header-dropdown">
+    <div id="contact-map" data-map-level="<?php echo hb_options('hb_map_zoom'); ?>" data-map-lat="<?php echo hb_options('hb_map_latitude') ?>" data-map-lng="<?php echo hb_options('hb_map_longitude'); ?>" data-map-img="<?php echo hb_options('hb_custom_marker_image'); ?>" data-overlay-color="<?php if ( hb_options('hb_enable_map_color') ) { echo hb_options('hb_map_focus_color'); } else { echo 'none'; } ?>"></div>
+    <div class="close-map"><i class="hb-moon-close-2"></i></div>
+</div>
+<div id="header-dropdown2" class="download">
+    <div id="download" >
+	<div class="container">
+	
+		
+		<div class="row  main-row">
+			<div class="col-4">
+			<?php echo do_shortcode('[image_banner url="670" text_color="dark"][video_embed embed_style="in_lightbox" url="https://www.youtube.com/watch?v=yObmPNHeuXA" width="30%"][/image_banner]'); ?>
+			</div>
+			<div class="col-4">
+			<iframe width="100%" height="250px" src="//www.youtube.com/embed/VLM4l8Fvryc" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-4">
+			<iframe width="100%" height="250px" src="//www.youtube.com/embed/VLM4l8Fvryc" frameborder="0" allowfullscreen></iframe>
+			</div>
+		
 
+		</div>
+		<!-- END .row -->
+
+	</div>
+	</div>
+    <div class="close-map"><i class="hb-moon-close-2"></i></div>
+</div>
 </div>
 <!-- END #header-bar -->
 
@@ -270,32 +297,6 @@ if ( hb_options('hb_enable_custom_pin') ){
 }
 ?>
 	
-<div id="header-dropdown">
-    <div id="contact-map" data-map-level="<?php echo hb_options('hb_map_zoom'); ?>" data-map-lat="<?php echo hb_options('hb_map_latitude') ?>" data-map-lng="<?php echo hb_options('hb_map_longitude'); ?>" data-map-img="<?php echo hb_options('hb_custom_marker_image'); ?>" data-overlay-color="<?php if ( hb_options('hb_enable_map_color') ) { echo hb_options('hb_map_focus_color'); } else { echo 'none'; } ?>"></div>
-    <div class="close-map"><i class="hb-moon-close-2"></i></div>
-</div>
 
-<div id="header-dropdown2" class="download">
-    <div id="download" >
-	<div class="container">
-	
-		
-		<div class="row  main-row">
-			<div class="col-4">
-			<?php echo do_shortcode('[image_banner url="670" text_color="dark"][video_embed embed_style="in_lightbox" url="https://www.youtube.com/watch?v=yObmPNHeuXA" width="30%"][/image_banner]'); ?>
-			</div>
-			<div class="col-4">
-			<iframe width="100%" height="250px" src="//www.youtube.com/embed/VLM4l8Fvryc" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="col-4">
-			<iframe width="100%" height="250px" src="//www.youtube.com/embed/VLM4l8Fvryc" frameborder="0" allowfullscreen></iframe>
-			</div>
-		
 
-		</div>
-		<!-- END .row -->
 
-	</div>
-	</div>
-    <div class="close-map"><i class="hb-moon-close-2"></i></div>
-</div>
