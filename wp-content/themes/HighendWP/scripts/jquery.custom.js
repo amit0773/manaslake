@@ -693,6 +693,18 @@ function hb_mini_contact_form() {
 
 /* HB Header Effect */
 function hb_header_effect() {
+ var header = $j("#header-bar");
+    $j(window).scroll(function() {    
+        var scroll = $j(window).scrollTop();
+    
+        if (scroll >= 30) {
+            header.addClass("darkHeader");
+        } else {
+            header.removeClass("darkHeader");
+        }
+    });
+
+
 	var $header = $j("#header-inner");
 	var $body = $j('body');
 
