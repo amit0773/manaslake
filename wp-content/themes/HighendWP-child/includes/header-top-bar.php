@@ -246,10 +246,10 @@ if ( class_exists('Woocommerce') ) {
 			<?php echo do_shortcode('[image_banner url="670" text_color="dark"][video_embed embed_style="in_lightbox" url="https://www.youtube.com/watch?v=yObmPNHeuXA" width="30%"][/image_banner]'); ?>
 			</div>
 			<div class="col-4">
-			<iframe width="100%" height="250px" src="//www.youtube.com/embed/VLM4l8Fvryc" frameborder="0" allowfullscreen></iframe>
+			<?php echo do_shortcode('[image_banner url="674" text_color="dark"][video_embed embed_style="in_lightbox" url="https://www.youtube.com/watch?v=9Haver6KTX4" width="30%"][/image_banner]'); ?>
 			</div>
 			<div class="col-4">
-			<iframe width="100%" height="250px" src="//www.youtube.com/embed/VLM4l8Fvryc" frameborder="0" allowfullscreen></iframe>
+			<?php echo do_shortcode('[image_banner url="683" text_color="dark"][video_embed embed_style="in_lightbox" url="https://www.youtube.com/watch?v=VLM4l8Fvryc" width="30%"][/image_banner]'); ?>
 			</div>
 		
 
