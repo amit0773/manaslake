@@ -207,7 +207,7 @@ and (max-device-width : 1024px) {
 	display:none;
 }
 .home #hb-header {
-	position:fixed;
+	position:static;
 }
 .home #header-bar{
 	display:none;
