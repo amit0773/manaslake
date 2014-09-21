@@ -211,8 +211,14 @@ and (max-device-width : 1024px) {
 #header-dropdown2 .close-map:hover{background: #ff6600;}
 #header-dropdown2 #download{ margin-top: 5%;}
 #header-dropdown2 .close-map .hb-moon-close-2 {margin-left: -1px;}
+.home #header-inner{
+	display:none;
+}
 .home #hb-header {
 	position:static;
+}
+.home #header-bar{
+	display:none;
 }
 .home #header-bar i{
 	vertical-align:0;
