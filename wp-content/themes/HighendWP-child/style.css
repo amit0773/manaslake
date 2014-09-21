@@ -175,6 +175,9 @@ and (max-width : 1024px) {
 	position: relative!important;
 	top: 0px!important;
 }
+.home #header-inner-bg{
+ display:block!important;
+}
 }
 @media only screen 
 and (min-device-width : 768px) 
@@ -195,6 +198,9 @@ and (max-device-width : 1024px) {
 #header-inner-bg {
 	position: relative!important;
 	top: 0px!important;
+}
+.home #header-inner-bg{
+ display:block!important;
 }
 }
 
@@ -225,10 +231,8 @@ and (max-device-width : 1024px) {
 	font-size: 32px;
 	
 }
-.home #header-bar.darkHeader {
-	display:block;
-	position:fixed;
-	margin-top:30px;
+.home #header-inner-bg{
+ display:none;
 }
  #header-bar{
 	position: fixed;
