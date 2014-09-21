@@ -174,8 +174,8 @@ and (max-width : 1024px) {
 	padding-top: 100px!important;
 }
 #header-inner-bg {
-	position: relative;
-	top: 0px;
+	position: relative!important;
+	top: 0px!important;
 }
 }
 @media only screen 
@@ -195,8 +195,8 @@ and (max-device-width : 1024px) {
 	padding-top: 100px!important;
 }
 #header-inner-bg {
-	position: relative;
-	top: 0px;
+	position: relative!important;
+	top: 0px!important;
 }
 }
 
