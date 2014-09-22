@@ -181,6 +181,9 @@ and (max-width : 1024px) {
 .home #header-inner-bg{
  display:block!important;
 }
+#hb-page-title {
+	margin-top:-35px !important;
+}
 }
 @media only screen 
 and (min-device-width : 768px) 
@@ -207,6 +210,9 @@ and (max-device-width : 1024px) {
 }
 .home #header-inner-bg{
  display:block!important;
+}
+#hb-page-title {
+	margin-top:-35px !important;
 }
 }
 
@@ -246,7 +252,7 @@ and (max-device-width : 1024px) {
 	float:right;
 }
 #skyi-logo img{
-	height:45px;
+	height:40px;
 	padding:20px 0;
 }
  #header-bar{
@@ -260,4 +266,7 @@ and (max-device-width : 1024px) {
 #header-inner-bg #logo  {
 	height: 80px;
 	line-height: 80px;
+}
+body #hb-page-title {
+	margin-top:0px;
 }
