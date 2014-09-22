@@ -151,9 +151,9 @@
 					
                         <!-- BEGIN #fancy-search -->
                         <div id="fancy-search">
-                            <form id="fancy-search-form" action="<?php echo home_url( '/' ); ?>" novalidate="" autocomplete="off">
+                           <!-- <form id="fancy-search-form" action="<?php echo home_url( '/' ); ?>" novalidate="" autocomplete="off">
                                 <input type="text" name="s" id="s" placeholder="<?php _e('Type keywords and press enter', 'hbthemes'); ?>" autocomplete="off">
-                            </form>
+                            </form>-->
                         <a href="#" id="close-fancy-search" class="no-transition"><i class="hb-moon-close-2"></i></a>
                         <span class="spinner"></span>
                         </div>
@@ -171,6 +171,7 @@
                         <?php } ?>
 
                     </nav>
+					<a id="skyi-logo" href="http://www.skyi.com" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/skyi-icon.png"/></a>
                     <!-- END .main-navigation -->
                     <?php } ?>
 
