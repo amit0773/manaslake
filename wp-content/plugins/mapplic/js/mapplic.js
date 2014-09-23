@@ -156,7 +156,7 @@
 							var left = value.x * 100;
 
 							if (value.pin !== 'hidden') {
-								$('<a></a>').attr({'href': '#' + value.id, 'title': value.label}).addClass('im-pin').addClass(value.pin).css({'top': top + '%', 'left': left + '%'}).appendTo(layer);
+								$('<a></a>').attr({'href': '#' + value.id, 'data-id': value.id, 'id':  value.id,'title': value.label}).addClass('im-pin').addClass(value.pin).css({'top': top + '%', 'left': left + '%'}).appendTo(layer);
 							}
 
 							if (data.sidebar) {
@@ -253,6 +253,18 @@
 				var locationData = self.getLocationData(id);
 				self.showTooltip(locationData);
 			});
+			$(document).on({
+				mouseover: function (e) {
+				console.log('eeeeeeeeeeee');
+				var id = e.target.id;
+				self.showLocation(id, 800);
+
+				// Tooltip
+				var locationData = self.getLocationData(id);
+				self.showTooltip(locationData);
+				//stuff to do on mouse enter
+				}
+				}, ".im-pin");
 
 			// Controls
 			// Drag and drop
@@ -623,4 +635,5 @@
 			me.data(key, instance).data('key', key);
 		});
 	};
+
 })(jQuery);
