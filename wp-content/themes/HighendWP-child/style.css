@@ -156,65 +156,6 @@ body{
 #main-content {
 	overflow: visible!important;
 }
-@media only screen 
-and (max-width : 1024px) {
-/* Styles */
-#skyi-logo {
-	display:none;
-}
-.home  #header-inner{
-	display:block !important;
-}
-.main-navigation{
-	display:block !important;
-}
-.tp-caption{
-	left:30px !important;
-}
-#main-content {
-	padding-top: 100px!important;
-}
-#header-inner-bg {
-	position: relative!important;
-	top: 0px!important;
-}
-.home #header-inner-bg{
- display:block!important;
-}
-#hb-page-title {
-	margin-top:-35px !important;
-}
-}
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-#skyi-logo {
-	display:none;
-}
-.home  #header-inner{
-	display:block !important;
-}
-.main-navigation{
-	display:block !important;
-	}
-.tp-caption{
-	left:30px !important;
-}
-#main-content {
-	padding-top: 100px!important;
-}
-#header-inner-bg {
-	position: relative!important;
-	top: 0px!important;
-}
-.home #header-inner-bg{
- display:block!important;
-}
-#hb-page-title {
-	margin-top:-35px !important;
-}
-}
 
 .sm-font{
 	font-size:14px !important;
@@ -275,4 +216,75 @@ and (max-device-width : 1024px) {
 }
 body #hb-page-title {
 	margin-top:0px;
+}
+
+@media only screen 
+and (max-width : 1024px) {
+/* Styles */
+#skyi-logo {
+	display:none;
+}
+.home  #header-inner{
+	display:block !important;
+}
+.main-navigation{
+	display:block !important;
+}
+.tp-caption{
+	left:30px !important;
+}
+
+#header-inner-bg {
+	position: relative!important;
+	top: 0px!important;
+}
+.home #header-inner-bg{
+ display:block!important;
+}
+#hb-page-title {
+	margin-top:-35px !important;
+}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+#skyi-logo {
+	display:none;
+}
+.home  #header-inner{
+	display:block !important;
+}
+.main-navigation{
+	display:block !important;
+	}
+.tp-caption{
+	left:30px !important;
+}
+#main-content {
+	padding-top: 100px!important;
+}
+#header-inner-bg {
+	position: relative!important;
+	top: 0px!important;
+}
+.home #header-inner-bg{
+ display:block!important;
+}
+#hb-page-title {
+	margin-top:-35px !important;
+}
+}
+
+/* Mobile Css */
+@media only screen and (min-device-width: 768px){
+	.home #header-bar{
+		display:none!important;
+	}
+	.home .im-container{
+		height:210px !important
+	}
+	.home .im-pin.purple {
+	background-size: 11px;
+	}
 }
