@@ -242,16 +242,18 @@ if ( class_exists('Woocommerce') ) {
 	
 		
 		<div class="row  main-row">
-			<div class="col-4">
+			<div class="col-3">
 			<?php echo do_shortcode('[image_banner url="670" text_color="dark"][video_embed embed_style="in_lightbox" url="https://www.youtube.com/watch?v=yObmPNHeuXA" width="30%"][/image_banner]'); ?>
 			</div>
-			<div class="col-4">
+			<div class="col-3">
 			<?php echo do_shortcode('[image_banner url="674" text_color="dark"][video_embed embed_style="in_lightbox" url="https://www.youtube.com/watch?v=9Haver6KTX4" width="30%"][/image_banner]'); ?>
 			</div>
-			<div class="col-4">
+			<div class="col-3">
 			<?php echo do_shortcode('[image_banner url="683" text_color="dark"][video_embed embed_style="in_lightbox" url="https://www.youtube.com/watch?v=VLM4l8Fvryc" width="30%"][/image_banner]'); ?>
 			</div>
-		
+			<div class="col-3">
+			<?php echo do_shortcode('[image_banner url="787" text_color="dark"][video_embed embed_style="in_lightbox" url="https://www.youtube.com/watch?v=3scc21z3DLw" width="30%"][/image_banner]'); ?>
+			</div>
 
 		</div>
 		<!-- END .row -->

@@ -33,7 +33,7 @@
 <!-- END #contact-panel -->
 
 <!-- BEGIN #hb-contact-button -->
-<a id="contact-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mail-tp.png" style="margin:3px;"/></a>
+<a id="contact-button"><i class="hb-moon-pencil-6"></i></a>
 <!-- END #hb-contact-button -->
 <?php } ?>
 
