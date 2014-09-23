@@ -160,7 +160,9 @@ body{
 .sm-font{
 	font-size:14px !important;
 }
-
+.mobile-menu-close, .mobile-menu-shop {
+	left:0px !important;
+}
 /*custom css */
 #header-dropdown2{position:relative;top:0;height:0;opacity:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter:alpha(opacity=0);-moz-opacity:0;background-image:url(images/preloader.gif);background-repeat:no-repeat;background-position:center center;background-color:#292929;overflow:hidden;z-index:3;}
 #header-dropdown2 .close-map{position:absolute;right:30px;top:30px;width:40px;height:40px;background:#323436;color:#FFF;line-height:40px;font-size:18px;text-align:center;opacity:0.7;cursor:pointer;transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
@@ -282,7 +284,8 @@ and (max-device-width : 1024px) {
 		display:none!important;
 	}
 	.home .im-container{
-		height:210px !important
+		height:210px !important;
+		overflow:visible;
 	}
 	.home .im-pin.purple {
 	background-size: 11px;

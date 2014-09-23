@@ -1372,7 +1372,7 @@
         $mobile_menu_output = "";                            
         $mobile_menu_output .= '<div id="mobile-menu-wrap">'. "\n";                            
         $mobile_menu_output .= '<form method="get" class="mobile-search-form" action="'.home_url().'/"><input type="text" placeholder="'.__("Search", "hbthemes").'" name="s" autocomplete="off" /></form>'. "\n";
-        $mobile_menu_output .= '<a class="mobile-menu-close"><i class="hb-moon-arrow-right-5"></i></a>'. "\n";
+        $mobile_menu_output .= '<a class="mobile-menu-close"><i class="hb-moon-arrow-left"></i></a>'. "\n";
 		$mobile_menu_output .= $cart_url;
         $mobile_menu_output .= '<nav id="mobile-menu" class="clearfix">'. "\n";     
                                     
