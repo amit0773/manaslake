@@ -218,6 +218,22 @@ body #hb-page-title {
 	margin-top:0px;
 }
 
+
+/* Youtube Video */
+.ytcplayer-wrapper,
+.ytcthumb-cont{
+border: solid 5px rgba(0,0,0,0) !important;
+-webkit-border-radius: 3px !important;
+-moz-border-radius: 3px !important;
+border-radius: 3px !important;
+box-shadow: 0 0 4px rgba(0,0,0,.2) !important;
+}
+
+.ytcthumb-cont{
+    margin:1px 0 0 1px !important;
+}
+
+
 @media only screen 
 and (max-width : 1024px) {
 /* Styles */
