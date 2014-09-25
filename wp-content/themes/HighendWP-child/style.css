@@ -283,6 +283,9 @@ and (max-device-width : 1024px) {
 	.home #header-bar{
 		display:none!important;
 	}
+	html body.home #header-bar.darkHeader{
+	display:none!important;
+	}
 	.home .im-container{
 		height:210px !important;
 		overflow:visible;
