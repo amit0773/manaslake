@@ -239,6 +239,11 @@ box-shadow: 0 0 4px rgba(0,0,0,.2) !important;
 @media only screen 
 and (max-width : 1024px) {
 /* Styles */
+html .tp-caption.starimage {
+	left: inherit !important;
+	right: 30px!important;
+	top: 10px!important;
+}
 #skyi-logo {
 	display:none;
 }
@@ -278,6 +283,11 @@ and (max-device-width : 1024px) {
 	}
 .tp-caption{
 	left:30px !important;
+}
+html .tp-caption.starimage {
+	left: inherit !important;
+	right: 30px!important;
+	top: 10px!important;
 }
 #main-content {
 	padding-top: 100px!important;
