@@ -346,3 +346,13 @@ html .tp-caption.starimage {
 	line-height: 41px;
 	right: 10px;
 }
+
+#footer-nav li a {
+	font-size:15px !important;
+}
+#footer-nav li a:hover {
+	color:#999 !important;
+}
+html{
+	overflow-x: hidden !important;
+}
