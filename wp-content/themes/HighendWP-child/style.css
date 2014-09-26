@@ -320,3 +320,32 @@ html .tp-caption.starimage {
 	background-size: 11px;
 	}
 }
+
+#mobile-menu-wrap input{
+	visibility :hidden;
+}
+.sub-menu{
+	display:none;
+}
+.downarrow:before {
+	content: "\f106" !important;
+	font-family: FontAwesome;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+	display: block;
+	position: absolute;
+	line-height: 41px;
+	right: 10px;
+}
+.menu-item-has-children:before {
+	content: "\f107";
+	font-family: FontAwesome;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+	display: block;
+	position: absolute;
+	line-height: 41px;
+	right: 10px;
+}

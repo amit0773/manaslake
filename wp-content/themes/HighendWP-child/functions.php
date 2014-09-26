@@ -90,6 +90,10 @@ function new_wpdm_downloadable_nsc($params){
     return $html;    
 }
 
+function add_child_theme_js(){
 
-
-?>
+	 wp_enqueue_script('hb-child-custom-js', site_url() . '/wp-content/themes/HighendWP-child/scripts/jquery.child.js', array(
+            'jquery'
+        ));
+}
+add_action('wp_enqueue_scripts', 'add_child_theme_js');
