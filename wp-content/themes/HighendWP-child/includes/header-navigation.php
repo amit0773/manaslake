@@ -171,7 +171,7 @@
                         <?php } ?>
 
                     </nav>
-					<a id="skyi-logo" href="http://www.skyi.com" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/skyi-icon.png"/></a>
+					<a id="skyi-logo" href="http://www.skyi.com" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/skyi-icon.png"/></a>
                     <!-- END .main-navigation -->
                     <?php } ?>
 
