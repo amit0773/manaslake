@@ -177,9 +177,6 @@ body{
 .home #hb-header {
 	position:static;
 }
-.home #header-bar{
-	display:none;
-}
 .home #header-bar i{
 	vertical-align:0;
 	margin-right:0px;
