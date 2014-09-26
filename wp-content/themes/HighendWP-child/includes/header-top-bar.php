@@ -61,10 +61,10 @@ if ( class_exists('Woocommerce') ) {
     if ( hb_options('hb_top_header_map') ) { ?>
     <!-- BEGIN .top-widget Map -->
     <div id="top-map-widget" class="top-widget float-right">
-        <a href="#" id="show-map-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/map.png"/></a>
+        <a href="#" id="show-map-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/map.png" title="Location" alt="Location" /></a>
     </div>
 	<div id="top-map-widget" class="top-widget float-right">
-        <a href="#" id="show-map-button2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/play.png"/></a>
+        <a href="#" id="show-map-button2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/play.png" title="Video" alt="Video" /></a>
     </div>
 	
 	  
@@ -76,7 +76,7 @@ if ( class_exists('Woocommerce') ) {
     ?>
         <!-- BEGIN .top-widget Email -->
         <div class="top-widget float-right ">
-            <a  href="mailto:<?php echo $header_left_email; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mail.png"/></a>
+            <a  href="mailto:<?php echo $header_left_email; ?>"><img title="Mail" src="<?php echo get_stylesheet_directory_uri(); ?>/images/mail.png" alt="Mail" /></a>
         </div>
         <!-- END .top-widget -->
     <?php } 
