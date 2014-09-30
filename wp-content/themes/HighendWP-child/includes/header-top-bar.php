@@ -45,9 +45,9 @@ if ( class_exists('Woocommerce') ) {
         } else {
             echo $top_header_container;
         }
-        ?>"><div id="top-map-widget" class="top-widget float-left">
+        ?>"><!--<div id="top-map-widget" class="top-widget float-left">
         <a href="#" id="show-nav-menu" class="sm-font"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/menu.png"/> MENU</a>
-		</div>
+		</div>-->
 <!-- menu-->
 
 	<!-- end menu -->
@@ -84,7 +84,7 @@ if ( class_exists('Woocommerce') ) {
 	    if ( $header_left_text ) {            
         ?>
         <!-- BEGIN .top-widget Information -->
-        <div id="top-info-widget" class="top-widget float-right <?php if (!$header_left_email) echo 'clear-r-margin'; ?>">
+        <div  class="top-widget float-left <?php if (!$header_left_email) echo 'clear-r-margin'; ?>">
             <p><?php echo $header_left_text; ?></p>
         </div>
         <!-- END .top-widget -->

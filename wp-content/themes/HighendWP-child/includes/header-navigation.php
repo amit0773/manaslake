@@ -108,7 +108,7 @@
 
                     <!-- BEGIN .main-navigation -->
                     <nav class="main-navigation <?php echo $menu_skin_class; echo $menu_effect; echo ' ' . hb_options('hb_main_navigation_color'); ?> clearfix"<?php echo $regular_header_height; ?> role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-						
+							<a style="margin-left:10px;" id="skyi-logo" href="http://www.skyi.com" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/skyi-icon.png"/></a>
                         <?php if ($header_layout_class == 'nav-type-2' || $header_layout_class == 'nav-type-2 centered-nav'){ ?>
                         <!-- BEGIN .container or .container-wide -->
                         <div class="<?php echo $main_header_container; ?>">
@@ -171,7 +171,7 @@
                         <?php } ?>
 
                     </nav>
-					<a id="skyi-logo" href="http://www.skyi.com" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/skyi-icon.png"/></a>
+				
                     <!-- END .main-navigation -->
                     <?php } ?>
 
