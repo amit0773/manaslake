@@ -334,4 +334,10 @@ html .tp-caption.starimage {
 html{
 	overflow-x: hidden !important;
 }
-
+@media (max-width: 767px) {
+.ytc-columns4 li {
+width: 50%!important;
+height: 182px;
+overflow: hidden;
+}
+}
