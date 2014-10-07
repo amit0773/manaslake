@@ -1,15 +1,6 @@
 <?php
 // Your php code goes here 
 
-add_action( 'wp_enqueue_scripts', 'remove_default_stylesheet', 25 );
-
-function remove_default_stylesheet() {
-    echo"helo";
-    wp_dequeue_style( 'mapplic-map-style' );
-    wp_deregister_style( 'mapplic-map-style' );
-
-
-}
 
 
 // Disable Admin Bar for everyone

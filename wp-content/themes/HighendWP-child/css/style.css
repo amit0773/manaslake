@@ -25,7 +25,7 @@
 td{font-size:12px;line-height:18px;text-align:left;}table thead tr th,table tfoot tr td{font-size:14px;font-weight:bold;color:#323436;padding:8px 10px 9px;}table thead tr th:first-child,table tfoot tr td:first-child{border-left:none;}table thead tr th:last-child,table tfoot tr td:last-child{border-right:none;}dt,table thead tr th{font-weight:bold;}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden],template{display:none;}script{display:none!important;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;}a{background:transparent;text-decoration:none;color:#111;}a:focus{outline:none;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:.67em 0;}abbr[title]{border-bottom:1px dotted;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:\201C\201D\2018\2019;}small{font-size:12px;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid #e1e1e1;margin:0 2px;padding:10px 20px}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type=button],/* 1 */
 input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}body,figure{margin:0;}input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px white inset;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}body{position:relative;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:'Roboto', 'Helvetica Neue', Arial, Helvetica, Verdana;word-wrap: break-word;}ul,ol{list-style-position:inside!important;}ul{list-style:circle;margin-bottom:20px;}p{margin:0 0 20px;}.pagination ul,.pagination ul li,.hb-countdown-unit,.hb-countdown-unit li,.hb-tabs .nav-tabs li,.hb-process-steps,.hb-process-steps li,.testimonial-slider,.testimonial-slider li,ul.testimonial-slider .flex-control-nav,ul.testimonial-slider .flex-control-nav li,.flex-control-nav,ul.row, ul.row li,.hb-client-list,.hb-client-list li,.comments-list,.comments-list li,ul.children,ul.children li,.hb-flex-slides,.hb-flex-slides li,.flex-control-nav,.flex-control-nav li,.flex-direction-nav,.flex-direction-nav li,.hb-gallery-dropdown,.hb-gallery-dropdown li,.portfolio-single-meta,.portfolio-single-meta li,.bbpress ul,.bbpress li, .special-list, .special-list li, .chosen-results, .chosen-results li{list-style:none!important;list-style-type:none!important;}em,dfn{font-style:italic;}
 a,input,button {-ms-touch-action: none !important;}.bbpress #main-content ol ol,.bbpress #main-content ul ul {margin-left:0;}strong em {font-weight: 700;}
-
+/*
 @font-face{font-family:'source_sans_proregular';src:url('css/fonts/sourcesanspro-regular-webfont.eot');src:url('css/fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
 url('css/fonts/sourcesanspro-regular-webfont.woff') format('woff'),
 url('css/fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
@@ -39,12 +39,12 @@ url('css/fonts/Museo500-Regular-webfont.ttf') format('truetype'),
 url('css/fonts/Museo500-Regular-webfont.svg#Museo300Regular') format('svg');font-weight:normal;font-style:normal}
 @font-face {font-family:"source_sans_prosemibold";src:url("css/fonts/SourceSansPro-Semibold.eot?") format("eot"),url("css/fonts/SourceSansPro-Semibold.woff") format("woff"),url("css/fonts/SourceSansPro-Semibold.ttf") format("truetype"),url("css/fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold") format("svg");font-weight:normal;font-style:normal;}
 
-
+*/
 /* ==========================================================================
    Global Styles
 ============================================================================= */
 html,body{min-height:100%;min-width: 100%;}
-body{font-family:'source_sans_proregular','Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;font-size:14px;color:#343434;font-weight:400;line-height:23px;letter-spacing:normal;background:#444;}
+body{font-size:14px;color:#343434;font-weight:400;line-height:23px;letter-spacing:normal;background:#444;}
 
 .light-text, .light-text h1, .light-text a, #hb-page-title .light-text h2, #hb-page-title .light-text h1{color:#FFF!important;color:rgba(255,255,255,1)!important;}
 
@@ -91,7 +91,6 @@ table.focus-header th {
 	text-transform: uppercase;
 	font-size: 12px;
 	color:#f4f4f4;
-	font-family: "source_sans_probold",Arial,Helvetica,Tahoma,sans-serif;
 	padding: 4px 0;
 }
 
@@ -346,7 +345,7 @@ ins.search-ins{text-decoration:none;}
 select {
 	background-color: #fff;
 	border: 1px solid #e3e3e3;
-	background-image: url(images/selectbox.png);
+	/*background-image: url(images/selectbox.png);*/
 	background-position: right center;
 	background-repeat:  no-repeat;
 	-webkit-appearance: none;
