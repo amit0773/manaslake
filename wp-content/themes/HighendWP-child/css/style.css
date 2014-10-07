@@ -750,7 +750,7 @@ li.megamenu li a{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-spa
 #main-wrapper .stuck #fancy-search ::-moz-placeholder {height: 60px; line-height: 60px;}
 
 #main-nav li{float:left;display:inline-block;}
-#main-nav li a{display:block;position:relative;margin:0;padding:0 11px;text-decoration:none;text-transform:none;font-family:'source_sans_proregular';line-height:inherit!important;color:#454545;background-color:transparent;}
+#main-nav li a{display:block;position:relative;margin:0;padding:0 11px;text-decoration:none;text-transform:none;line-height:inherit!important;color:#454545;background-color:transparent;}
 #main-nav>li>a{font-size:14px;color:#444;letter-spacing:0px;}
 .default-skin #main-nav > li > a {padding: 0 15px;}
 
