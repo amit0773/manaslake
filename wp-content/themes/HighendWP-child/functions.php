@@ -1,6 +1,17 @@
 <?php
 // Your php code goes here 
 
+add_action( 'wp_enqueue_scripts', 'remove_default_stylesheet', 25 );
+
+function remove_default_stylesheet() {
+    echo"helo";
+    wp_dequeue_style( 'mapplic-map-style' );
+    wp_deregister_style( 'mapplic-map-style' );
+
+
+}
+
+
 // Disable Admin Bar for everyone
 if (!function_exists('df_disable_admin_bar')) {
 
@@ -28,10 +39,6 @@ if (!function_exists('df_disable_admin_bar')) {
   	}
 }
 add_action('init','df_disable_admin_bar');
-
-
-
-
 
 
 //Overrides downloadmanager default icon style
@@ -97,3 +104,6 @@ function add_child_theme_js(){
         ));
 }
 add_action('wp_enqueue_scripts', 'add_child_theme_js');
+
+
+

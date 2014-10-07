@@ -3,7 +3,7 @@
  * @package WordPress
  * @subpackage Highend
  */
-
+/*
 function hb_styles_setup () {
 
 	// Enqueue Responsive Style if selected from the Theme Options
@@ -18,4 +18,4 @@ function hb_styles_setup () {
 
 }
 add_action('wp_enqueue_scripts', 'hb_styles_setup');
-?>
+?>*/

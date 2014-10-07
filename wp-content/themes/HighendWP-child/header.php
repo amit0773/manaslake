@@ -51,7 +51,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/scripts/html5shiv.js" type="text/javascript"></script>
 	<![endif]-->
 
-	<!--<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="screen,print" />-->
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/custom-style.css" type="text/css" media="screen,print" />
 
 	<?php wp_head(); ?>
 
