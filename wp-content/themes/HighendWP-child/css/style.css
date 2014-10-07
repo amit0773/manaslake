@@ -345,7 +345,7 @@ ins.search-ins{text-decoration:none;}
 select {
 	background-color: #fff;
 	border: 1px solid #e3e3e3;
-	/*background-image: url(images/selectbox.png);*/
+	background-image: url(images/selectbox.png);
 	background-position: right center;
 	background-repeat:  no-repeat;
 	-webkit-appearance: none;
