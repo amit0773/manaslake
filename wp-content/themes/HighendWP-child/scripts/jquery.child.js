@@ -17,4 +17,11 @@ return;
 	}
 		
 	});
+	
+	if ($(window).width() < 797) {
+		  $('#mapplic1').remove();
+		   $('.urban-design').remove();
+		    $('.ecology-design').remove();
+		$('.substainability').remove();
+		}
 });
