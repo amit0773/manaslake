@@ -18,10 +18,10 @@ return;
 		
 	});
 	
-	if ($(window).width() < 797) {
-		  $('#mapplic1').remove();
-		   $('.urban-design').remove();
-		    $('.ecology-design').remove();
-		$('.substainability').remove();
+	if ($j(window).width() < 797) {
+		  $j('#mapplic1').remove();
+		   $j('.urban-design').remove();
+		    $j('.ecology-design').remove();
+		$j('.substainability').remove();
 		}
 });
