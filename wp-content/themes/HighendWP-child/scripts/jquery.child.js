@@ -23,5 +23,6 @@ return;
 		   $j('.urban-design').remove();
 		    $j('.ecology-design').remove();
 		$j('.substainability').remove();
+			$j('.mobile-hide').remove();
 		}
 });
