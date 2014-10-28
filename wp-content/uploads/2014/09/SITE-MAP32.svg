@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_2" x="0px" y="0px" width="2291px" height="1441px" viewBox="0 0 2291 1441" xml:space="preserve">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2291px" height="1441px" viewBox="0 0 2291 1441" enable-background="new 0 0 2291 1441" xml:space="preserve">
 <style type="text/css">
 a:hover .overlay{
 	opacity: 0.9 !important;
 }
+
 text{
 	font-family:arial!important;
 }
@@ -71,641 +72,369 @@ background-size: 71%;
 }
 
 </style> 
-<g id="Layer_1_1_">
+
 	
-		<image enable-background="new    " width="2291" height="1441" xlink:href="wp-content/uploads/2014/08/siteplan.png" transform="matrix(1 0 0 1 -4.882813e-004 0)">
+		<image overflow="visible" enable-background="new    " width="1146" height="721" xlink:href="../wp-content/uploads/2014/09/siteplan.png"  transform="matrix(1.999 0 0 1.999 0.0786 -0.1333)">
 	</image>
-	<a id="tower13" xlink:href="tower13" class="tower-link">
-		<g opacity="0" class="overlay" id="highlighttower13">
-			<polygon class="dot" id="tower13" fill="#FF5B00" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1497.544,635.823      1547.55,635.823 1547.55,646.324 1557.552,646.324 1557.552,697.331 1548.051,697.331 1548.051,706.332 1497.544,706.332      1497.544,696.83 1488.043,696.83 1488.043,646.324 1497.544,646.324    "/>
-			<text id="tower13" transform="matrix(1 0 0 1 1513.3779 684.6621)" font-family="'ArialMT'" font-size="36.0045">3</text>
-		</g>
-		<g opacity="0" class="outline" id="tower13" xlink:href="#tower13">
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1510.239,658.784 1498.819,647.464 1522.877,647.464 1522.877,658.784    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1509.694,671.898 1498.374,671.898 1498.374,647.956 1509.694,659.353    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1536.305,658.784 1547.724,647.464 1523.668,647.464 1523.668,658.784    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1510.239,685.62 1498.819,696.941 1522.877,696.941 1522.877,685.62    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1509.694,672.494 1498.374,672.494 1498.374,696.449 1509.694,685.052    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1536.305,685.62 1547.724,696.941 1523.668,696.941 1523.668,685.62    "/>
-			<g>
-				
-					<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      1536.85,671.913 1548.17,671.913 1548.17,647.956 1536.85,659.353     "/>
-				
-					<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      1536.85,672.527 1548.17,672.527 1548.17,696.449 1536.85,685.052     "/>
-			</g>
-			
-				<line fill="none" stroke="#97C3CF" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1514.979" y1="690.204" x2="1514.986" y2="690.204"/>
-			<g>
-				
-					<rect x="1516.162" y="664.412" fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="14.22" height="15.944"/>
-				<g>
-					<text transform="matrix(1.001 0 0 1 1519.3135 673.1768)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">LOBBY</text>
-				</g>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1527.2148 690.4541)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.829" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">05</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1512.9688 690.4551)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.709" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">06</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1539.0264 664.4121)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2 BHK</tspan><tspan x="2.122" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">03</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1539.3301 678.3398)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.64" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">04</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1500.8535 678.3398)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.794" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">07</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1527.2148 652.2979)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.748" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">02</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1512.9688 652.2979)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.96" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">01</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1501.0361 665.3525)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.706" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">08</tspan></text>
-			</g>
+	<a id="tower13"   data-id="tower13"  class="tower-link">
+		<g opacity="0" class="overlay" data-id="tower13" id="highlighttower13">
+			<polygon id="tower13" fill="#FF5B00" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1497.544,635.823 
+				1547.55,635.823 1547.55,646.324 1557.552,646.324 1557.552,697.331 1548.051,697.331 1548.051,706.332 1497.544,706.332 
+				1497.544,696.83 1488.043,696.83 1488.043,646.324 1497.544,646.324 			"/>
+			<text id="tower13_1_" transform="matrix(1 0 0 1 1513.3779 684.6621)" font-family="'ArialMT'" font-size="36.0045">3</text>
 		</g>
 	</a>
-	<a id="tower12" xlink:href="tower12" class="tower-link">
-		<g opacity="0" class="overlay " id="highlighttower12">
-			<polygon class="dot" id="tower12" fill="#FF5B00" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1497.544,770.507      1547.55,770.507 1547.55,781.008 1557.552,781.008 1557.552,832.015 1548.051,832.015 1548.051,841.016 1497.544,841.016      1497.544,831.515 1488.043,831.515 1488.043,781.008 1497.544,781.008    "/>
-			<text id="tower12" transform="matrix(1 0 0 1 1513.3779 818.6787)" font-family="'ArialMT'" font-size="36.0045">2</text>
-			</g>
-			<g opacity="0" class="outline" id="tower12">
-				
-					<polygon opacity="0.8" fill="none" stroke="#929497" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      527.583,325.454 523.686,321.592 531.896,321.592 531.896,325.454     "/>
-				
-					<polygon opacity="0.8" fill="none" stroke="#929497" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      527.396,329.931 523.533,329.931 523.533,321.759 527.396,325.648     "/>
-				
-					<polygon opacity="0.8" fill="none" stroke="#929497" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      536.478,325.454 540.375,321.592 532.165,321.592 532.165,325.454     "/>
-				
-					<polygon opacity="0.8" fill="none" stroke="#929497" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      527.583,334.613 523.686,338.477 531.896,338.477 531.896,334.613     "/>
-				
-					<polygon opacity="0.8" fill="none" stroke="#929497" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      527.396,330.134 523.533,330.134 523.533,338.309 527.396,334.419     "/>
-				
-					<polygon opacity="0.8" fill="none" stroke="#929497" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      536.478,334.613 540.375,338.477 532.165,338.477 532.165,334.613     "/>
-				<g>
-					
-						<polygon opacity="0.8" fill="none" stroke="#929497" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="       536.664,329.936 540.527,329.936 540.527,321.759 536.664,325.648      "/>
-					
-						<polygon opacity="0.8" fill="none" stroke="#929497" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="       536.664,330.146 540.527,330.146 540.527,338.309 536.664,334.419      "/>
-				</g>
-				
-					<line fill="none" stroke="#97C3CF" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="529.201" y1="336.178" x2="529.203" y2="336.178"/>
-				<g>
-					
-						<rect x="529.604" y="327.375" fill="none" stroke="#929497" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="4.854" height="5.441"/>
-					<g>
-						
-							<text transform="matrix(1.001 0 0 1 530.6787 330.3643)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">LOBBY</text>
-					</g>
-				</g>
-				<g>
-					<text transform="matrix(1.001 0 0 1 533.375 336.2617)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">2BHK</text>
-					<text transform="matrix(1.001 0 0 1 534 337.1826)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">05</text>
-				</g>
-				<g>
-					<text transform="matrix(1.001 0 0 1 528.5127 336.2617)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">2BHK</text>
-					<text transform="matrix(1.001 0 0 1 529.0957 337.1826)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">06</text>
-				</g>
-				<g>
-					<text transform="matrix(1.001 0 0 1 537.4043 327.374)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">2 BHK</text>
-					<text transform="matrix(1.001 0 0 1 538.1289 328.2949)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">03</text>
-				</g>
-				<g>
-					<text transform="matrix(1.001 0 0 1 537.5078 332.1279)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">2BHK</text>
-					<text transform="matrix(1.001 0 0 1 538.0693 333.0488)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">04</text>
-				</g>
-				<g>
-					<text transform="matrix(1.001 0 0 1 524.3779 332.1279)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">2BHK</text>
-					<text transform="matrix(1.001 0 0 1 524.9912 333.0488)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">07</text>
-				</g>
-				<g>
-					<text transform="matrix(1.001 0 0 1 533.375 323.2402)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">2BHK</text>
-					<text transform="matrix(1.001 0 0 1 533.9727 324.1611)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">02</text>
-				</g>
-				<g>
-					<text transform="matrix(1.001 0 0 1 528.5127 323.2402)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">2BHK</text>
-					<text transform="matrix(1.001 0 0 1 529.1816 324.1611)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">01</text>
-				</g>
-				<g>
-					<text transform="matrix(1.001 0 0 1 524.4404 327.6943)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">2BHK</text>
-					<text transform="matrix(1.001 0 0 1 525.0234 328.6152)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="0.9208">08</text>
-				</g>
-			
-	
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1509.634,793.496 1498.214,782.176 1522.271,782.176 1522.271,793.496    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1509.089,806.61 1497.769,806.61 1497.769,782.668 1509.089,794.064    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1535.699,793.496 1547.118,782.176 1523.063,782.176 1523.063,793.496    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1509.634,820.332 1498.214,831.653 1522.271,831.653 1522.271,820.332    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1509.089,807.206 1497.769,807.206 1497.769,831.161 1509.089,819.764    "/>
-			
-				<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="     1535.699,820.332 1547.118,831.653 1523.063,831.653 1523.063,820.332    "/>
-			<g>
-				
-					<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      1536.244,806.625 1547.564,806.625 1547.564,782.668 1536.244,794.064     "/>
-				
-					<polygon fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="      1536.244,807.239 1547.564,807.239 1547.564,831.161 1536.244,819.764     "/>
-			</g>
-			
-				<line fill="none" stroke="#97C3CF" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1514.374" y1="824.916" x2="1514.381" y2="824.916"/>
-			<g>
-				
-					<rect x="1515.557" y="799.124" fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="14.22" height="15.944"/>
-				<g>
-					<text transform="matrix(1.001 0 0 1 1518.708 807.8887)" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">LOBBY</text>
-				</g>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1526.6094 825.166)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.829" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">05</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1512.3633 825.167)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.709" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">06</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1538.4209 799.124)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2 BHK</tspan><tspan x="2.122" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">03</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1538.7246 813.0518)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.64" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">04</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1500.248 813.0518)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.794" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">07</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1526.6094 787.0098)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.748" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">02</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1512.3633 787.0098)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.96" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">01</tspan></text>
-			</g>
-			<g>
-				<text transform="matrix(1.001 0 0 1 1500.4307 800.0645)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.706" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">08</tspan></text>
-			</g>
-		</g>
-	</a>
-	<a id="tower11" xlink:href="tower11" class="tower-link">
-		<g opacity="0" class="overlay" id="highlighttower11">
-			
-				<rect class="dot" id="tower11" x="1488.043" y="908.023" fill="#FF5B00" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="69.509" height="67.509"/>
-			<text id="tower11" transform="matrix(1 0 0 1 1513.3779 954.6963)" font-family="'ArialMT'" font-size="36.0045">1</text>
-		</g>
-			<g opacity="0" class="outline" id="tower11">
-			<g>
-				<defs>
-					<rect id="SVGID_1_" x="1468.167" y="894.508" width="102.534" height="89.922"/>
-				</defs>
-				<clipPath id="SVGID_2_">
-					<use xlink:href="#SVGID_1_"/>
-				</clipPath>
-				<g clip-path="url(#SVGID_2_)">
-					<g>
-						<defs>
-							<rect id="SVGID_3_" x="1492.878" y="911.344" width="16.162" height="29.432"/>
-						</defs>
-						<use xlink:href="#SVGID_3_" fill="#FFFFFF"/>
-						<clipPath id="SVGID_4_">
-							<use xlink:href="#SVGID_3_"/>
-						</clipPath>
-						<g clip-path="url(#SVGID_4_)">
-							<defs>
-								<rect id="SVGID_5_" x="1492.878" y="911.344" width="16.162" height="29.432"/>
-							</defs>
-							<use xlink:href="#SVGID_5_" fill="#FFFFFF"/>
-							<clipPath id="SVGID_6_">
-								<use xlink:href="#SVGID_5_"/>
-							</clipPath>
-							
-								<rect x="1493.041" y="911.506" clip-path="url(#SVGID_6_)" fill="#FFFFFF" stroke="#929497" stroke-width="1.28" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="15.837" height="29.107"/>
-						</g>
-					</g>
-				</g>
-			</g>
-			<g>
-				<defs>
-					<rect id="SVGID_7_" x="1468.167" y="894.508" width="102.534" height="89.922"/>
-				</defs>
-				<clipPath id="SVGID_8_">
-					<use xlink:href="#SVGID_7_"/>
-				</clipPath>
-				<g clip-path="url(#SVGID_8_)">
-					<g>
-						<defs>
-							<rect id="SVGID_9_" x="1513.896" y="952.862" width="17.887" height="18.409"/>
-						</defs>
-						<use xlink:href="#SVGID_9_" fill="#FFFFFF"/>
-						<clipPath id="SVGID_10_">
-							<use xlink:href="#SVGID_9_"/>
-						</clipPath>
-						<g clip-path="url(#SVGID_10_)">
-							<defs>
-								<rect id="SVGID_11_" x="1513.896" y="952.862" width="17.888" height="18.409"/>
-							</defs>
-							<use xlink:href="#SVGID_11_" fill="#FFFFFF"/>
-							<clipPath id="SVGID_12_">
-								<use xlink:href="#SVGID_11_"/>
-							</clipPath>
-							
-								<rect x="1514.06" y="953.024" clip-path="url(#SVGID_12_)" fill="#FFFFFF" stroke="#929497" stroke-width="1.28" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="17.562" height="18.084"/>
-						</g>
-					</g>
-				</g>
-			</g>
-			<g>
-				<g>
-					<defs>
-						<rect id="SVGID_13_" x="1468.167" y="894.508" width="102.534" height="89.922"/>
-					</defs>
-					<clipPath id="SVGID_14_">
-						<use xlink:href="#SVGID_13_"/>
-					</clipPath>
-					<g opacity="0.8" clip-path="url(#SVGID_14_)">
-						<g>
-							<defs>
-								<rect id="SVGID_15_" x="1493.225" y="911.153" width="29.398" height="14.006"/>
-							</defs>
-							<clipPath id="SVGID_16_">
-								<use xlink:href="#SVGID_15_"/>
-							</clipPath>
-						</g>
-					</g>
-					<g opacity="0.8" clip-path="url(#SVGID_14_)">
-						<g>
-							<defs>
-								<rect id="SVGID_17_" x="1492.687" y="911.748" width="14.006" height="29.26"/>
-							</defs>
-							<clipPath id="SVGID_18_">
-								<use xlink:href="#SVGID_17_"/>
-							</clipPath>
-						</g>
-					</g>
-					<g opacity="0.8" clip-path="url(#SVGID_14_)">
-						<g>
-							<defs>
-								<rect id="SVGID_19_" x="1523.255" y="911.153" width="29.397" height="14.006"/>
-							</defs>
-							<clipPath id="SVGID_20_">
-								<use xlink:href="#SVGID_19_"/>
-							</clipPath>
-						</g>
-					</g>
-					<g opacity="0.8" clip-path="url(#SVGID_14_)">
-						<g>
-							<defs>
-								<rect id="SVGID_21_" x="1493.225" y="957.266" width="29.398" height="14.006"/>
-							</defs>
-							<clipPath id="SVGID_22_">
-								<use xlink:href="#SVGID_21_"/>
-							</clipPath>
-						</g>
-					</g>
-					<g opacity="0.8" clip-path="url(#SVGID_14_)">
-						<g>
-							<defs>
-								<rect id="SVGID_23_" x="1492.687" y="941.401" width="14.006" height="29.275"/>
-							</defs>
-							<clipPath id="SVGID_24_">
-								<use xlink:href="#SVGID_23_"/>
-							</clipPath>
-						</g>
-					</g>
-					<g opacity="0.8" clip-path="url(#SVGID_14_)">
-						<g>
-							<defs>
-								<rect id="SVGID_25_" x="1523.255" y="957.266" width="29.397" height="14.006"/>
-							</defs>
-							<clipPath id="SVGID_26_">
-								<use xlink:href="#SVGID_25_"/>
-							</clipPath>
-						</g>
-					</g>
-					<g opacity="0.8" clip-path="url(#SVGID_14_)">
-						<g>
-							<defs>
-								<rect id="SVGID_27_" x="1539.185" y="911.748" width="14.006" height="29.277"/>
-							</defs>
-							<clipPath id="SVGID_28_">
-								<use xlink:href="#SVGID_27_"/>
-							</clipPath>
-						</g>
-					</g>
-					<g opacity="0.8" clip-path="url(#SVGID_14_)">
-						<g>
-							<defs>
-								<rect id="SVGID_29_" x="1539.185" y="941.442" width="14.006" height="29.234"/>
-							</defs>
-							<clipPath id="SVGID_30_">
-								<use xlink:href="#SVGID_29_"/>
-							</clipPath>
-						</g>
-					</g>
-				</g>
-				<g>
-					<defs>
-						<rect id="SVGID_31_" x="1468.167" y="894.508" width="102.534" height="89.922"/>
-					</defs>
-					<clipPath id="SVGID_32_">
-						<use xlink:href="#SVGID_31_"/>
-					</clipPath>
-					<g clip-path="url(#SVGID_32_)">
-						<g>
-							<defs>
-								<rect id="SVGID_33_" x="1536.641" y="941.763" width="16.162" height="29.508"/>
-							</defs>
-							<use xlink:href="#SVGID_33_" fill="#FFFFFF"/>
-							<clipPath id="SVGID_34_">
-								<use xlink:href="#SVGID_33_"/>
-							</clipPath>
-							<g clip-path="url(#SVGID_34_)">
-								<defs>
-									<rect id="SVGID_35_" x="1536.641" y="941.763" width="16.162" height="29.508"/>
-								</defs>
-								<use xlink:href="#SVGID_35_" fill="#FFFFFF"/>
-								<clipPath id="SVGID_36_">
-									<use xlink:href="#SVGID_35_"/>
-								</clipPath>
-								
-									<rect x="1536.803" y="941.925" clip-path="url(#SVGID_36_)" fill="#FFFFFF" stroke="#929497" stroke-width="1.28" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="15.837" height="29.184"/>
-							</g>
-						</g>
-					</g>
-					<g clip-path="url(#SVGID_32_)">
-						<g>
-							<defs>
-								<rect id="SVGID_37_" x="1513.896" y="911.344" width="17.888" height="18.409"/>
-							</defs>
-							<use xlink:href="#SVGID_37_" fill="#FFFFFF"/>
-							<clipPath id="SVGID_38_">
-								<use xlink:href="#SVGID_37_"/>
-							</clipPath>
-							<g clip-path="url(#SVGID_38_)">
-								<defs>
-									<rect id="SVGID_39_" x="1513.896" y="911.344" width="17.888" height="18.409"/>
-								</defs>
-								<use xlink:href="#SVGID_39_" fill="#FFFFFF"/>
-								<clipPath id="SVGID_40_">
-									<use xlink:href="#SVGID_39_"/>
-								</clipPath>
-								
-									<rect x="1514.06" y="911.506" clip-path="url(#SVGID_40_)" fill="#FFFFFF" stroke="#929497" stroke-width="1.28" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="17.562" height="18.085"/>
-							</g>
-						</g>
-					</g>
-				</g>
-				
-					<text transform="matrix(1.001 0 0 1 1519.8262 921.2637)" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="2.4368">2 BHK</text>
-				<g>
-					<defs>
-						<rect id="SVGID_41_" x="1468.167" y="894.508" width="102.534" height="89.922"/>
-					</defs>
-					<clipPath id="SVGID_42_">
-						<use xlink:href="#SVGID_41_"/>
-					</clipPath>
-					<g clip-path="url(#SVGID_42_)">
-						<g>
-							<defs>
-								<rect id="SVGID_43_" x="1536.641" y="911.344" width="16.162" height="29.509"/>
-							</defs>
-							<use xlink:href="#SVGID_43_" fill="#FFFDFD"/>
-							<clipPath id="SVGID_44_">
-								<use xlink:href="#SVGID_43_"/>
-							</clipPath>
-							<g clip-path="url(#SVGID_44_)">
-								<defs>
-									<rect id="SVGID_45_" x="1536.641" y="911.344" width="16.161" height="29.509"/>
-								</defs>
-								<use xlink:href="#SVGID_45_" fill="#FFFDFD"/>
-								<clipPath id="SVGID_46_">
-									<use xlink:href="#SVGID_45_"/>
-								</clipPath>
-								
-									<rect x="1536.803" y="911.506" clip-path="url(#SVGID_46_)" fill="#FFFDFD" stroke="#929497" stroke-width="1.28" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="15.837" height="29.184"/>
-							</g>
-						</g>
-					</g>
-				</g>
-				<text transform="matrix(1.001 0 0 1 1541.707 926.8125)" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="2.4368">3 BHK</text>
-				<text transform="matrix(1.001 0 0 1 1541.707 957.2314)" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="2.4368">3 BHK</text>
-				<g>
-					<defs>
-						<rect id="SVGID_47_" x="1468.167" y="894.508" width="102.534" height="89.922"/>
-					</defs>
-					<clipPath id="SVGID_48_">
-						<use xlink:href="#SVGID_47_"/>
-					</clipPath>
-					<g clip-path="url(#SVGID_48_)">
-						<g>
-							<defs>
-								<rect id="SVGID_49_" x="1492.878" y="941.763" width="16.162" height="29.508"/>
-							</defs>
-							<use xlink:href="#SVGID_49_" fill="#FFFFFF"/>
-							<clipPath id="SVGID_50_">
-								<use xlink:href="#SVGID_49_"/>
-							</clipPath>
-							<g clip-path="url(#SVGID_50_)">
-								<defs>
-									<rect id="SVGID_51_" x="1492.878" y="941.763" width="16.162" height="29.508"/>
-								</defs>
-								<use xlink:href="#SVGID_51_" fill="#FFFFFF"/>
-								<clipPath id="SVGID_52_">
-									<use xlink:href="#SVGID_51_"/>
-								</clipPath>
-								
-									<rect x="1493.041" y="941.925" clip-path="url(#SVGID_52_)" fill="#FFFFFF" stroke="#929497" stroke-width="1.28" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="15.837" height="29.184"/>
-							</g>
-						</g>
-					</g>
-				</g>
-				
-					<text transform="matrix(1.001 0 0 1 1497.9453 957.2324)" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="2.4368">3 BHK</text>
-				
-					<text transform="matrix(1.001 0 0 1 1497.9453 926.7744)" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="2.4368">3 BHK</text>
-				
-					<text transform="matrix(1.001 0 0 1 1519.8262 962.7822)" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="2.4368">2 BHK</text>
-				
-					<rect x="1516.597" y="934.455" fill="#FFFFFF" stroke="#929497" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="12.488" height="14.002"/>
-				<text transform="matrix(1.001 0 0 1 1518.4238 942.4043)"><tspan x="0" y="0" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="3.2292">L</tspan><tspan x="1.402" y="0" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="3.2292">OB</tspan><tspan x="5.376" y="0" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="3.2292">B</tspan><tspan x="7.081" y="0" fill="#58595B" font-family="'MyriadPro-Regular'" font-size="3.2292">Y</tspan></text>
-			</g>
+	<a id="tower12"   data-id="tower12" class="tower-link">
+		<g opacity="0" class="overlay " data-id="tower12" id="highlighttower12">
+			<polygon id="tower12" fill="#FF5B00" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1497.544,770.507 
+				1547.55,770.507 1547.55,781.008 1557.552,781.008 1557.552,832.015 1548.051,832.015 1548.051,841.016 1497.544,841.016 
+				1497.544,831.515 1488.043,831.515 1488.043,781.008 1497.544,781.008 			"/>
+			<text id="tower12_1_" transform="matrix(1 0 0 1 1513.3779 818.6787)" font-family="'ArialMT'" font-size="36.0045">2</text>
 		</g>
 		
 	</a>
-	<a id="tower" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			<polygon fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1361.695,634.99 1415.367,634.99      1415.367,643.325 1423.369,643.325 1423.369,696.998 1414.367,696.998 1414.367,705.999 1361.695,705.999 1361.695,697.998      1352.359,697.998 1352.359,643.658 1362.027,643.658    "/>
-			<text transform="matrix(1 0 0 1 1367.0283 678.3291)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
-		</g>
-	</a>
-	<a id="tower_1_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			<polygon fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1361.695,800.011 1415.367,800.011      1415.367,808.346 1423.369,808.346 1423.369,862.019 1414.367,862.019 1414.367,871.02 1361.695,871.02 1361.695,863.019      1352.359,863.019 1352.359,808.678 1362.027,808.678    "/>
-			<text transform="matrix(1 0 0 1 1367.0283 843.3496)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
-		</g>
-	</a>
-	<a id="tower_2_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			<polygon fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1496.626,346.788 1550.301,346.788      1550.301,355.123 1558.302,355.123 1558.302,408.796 1549.301,408.796 1549.301,417.797 1496.626,417.797 1496.626,409.796      1487.293,409.796 1487.293,355.455 1496.96,355.455    "/>
-			<text transform="matrix(1 0 0 1 1501.9609 390.126)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
-		</g>
-	</a>
-	<a id="tower_3_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			<polygon fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1631.729,346.788 1685.401,346.788      1685.401,355.123 1693.402,355.123 1693.402,408.796 1684.401,408.796 1684.401,417.797 1631.729,417.797 1631.729,409.796      1622.394,409.796 1622.394,355.455 1632.061,355.455    "/>
-			<text transform="matrix(1 0 0 1 1637.0615 390.126)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
-		</g>
-	</a>
-	<a id="tower_4_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			<polygon fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1080.659,414.796 1134.333,414.796      1134.333,423.132 1142.334,423.132 1142.334,476.804 1133.332,476.804 1133.332,485.806 1080.659,485.806 1080.659,477.805      1071.324,477.805 1071.324,423.464 1080.992,423.464    "/>
-			<text transform="matrix(1 0 0 1 1085.9922 458.1348)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
-		</g>
-	</a>
-	<a id="tower_5_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			<polygon fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="866.041,410.382 918.688,420.827      917.066,429.003 924.914,430.561 914.468,483.207 905.64,481.456 903.888,490.284 852.222,480.032 853.778,472.185      844.623,470.368 855.199,417.066 864.681,418.948    "/>
+<a id="tower11"   data-id="tower11" class="tower-link">
+		<g opacity="0" class="overlay" data-id="tower11" id="highlighttower11">
 			
-				<text transform="matrix(0.9809 0.1946 -0.1946 0.9809 862.8379 453.9302)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0034">U-A</text>
+				<rect id="tower11" x="1488.043" y="908.023" fill="#FF5B00" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="69.509" height="67.509"/>
+			<text id="tower11_1_" transform="matrix(1 0 0 1 1513.3779 954.6963)" font-family="'ArialMT'" font-size="36.0045">1</text>
+		</g>
+</a>
+																	
+																			
+																
+																		<a id="tower25"  data-id="tower25" class="tower-link">
+		<g opacity="0" class="overlay" data-id="tower25" id="tower25">
+			<polygon data-id="tower25" id="tower25" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1361.695,634.99 1415.367,634.99 
+				1415.367,643.325 1423.369,643.325 1423.369,696.998 1414.367,696.998 1414.367,705.999 1361.695,705.999 1361.695,697.998 
+				1352.359,697.998 1352.359,643.658 1362.027,643.658 			"/>
+			<text data-id="tower25" id="tower25" transform="matrix(1 0 0 1 1367.0283 678.3291)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_6_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			<polygon fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="642.79,317.312 696.12,323.386      695.176,331.667 703.126,332.572 697.05,385.9 688.106,384.882 687.088,393.825 634.753,387.863 635.659,379.913      626.384,378.856 632.536,324.865 642.141,325.959    "/>
-			
-				<text transform="matrix(0.9936 0.1132 -0.1132 0.9936 643.1841 360.9736)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0037">U-A</text>
+	<a id="tower26"    data-id="tower26" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower26" id="tower26">
+			<polygon data-id="tower26" id="tower26" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1361.695,800.011 1415.367,800.011 
+				1415.367,808.346 1423.369,808.346 1423.369,862.019 1414.367,862.019 1414.367,871.02 1361.695,871.02 1361.695,863.019 
+				1352.359,863.019 1352.359,808.678 1362.027,808.678 			"/>
+			<text data-id="tower26" id="tower26" transform="matrix(1 0 0 1 1367.0283 843.3496)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_7_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			
-				<rect x="1218.675" y="688.998" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
-			<text transform="matrix(1 0 0 1 1232.6768 730.0029)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+	<a id="tower23"   data-id="tower23" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower23" id="tower23">
+			<polygon data-id="tower23" id="tower23" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1496.626,346.788 1550.301,346.788 
+				1550.301,355.123 1558.302,355.123 1558.302,408.796 1549.301,408.796 1549.301,417.797 1496.626,417.797 1496.626,409.796 
+				1487.293,409.796 1487.293,355.455 1496.96,355.455 			"/>
+			<text data-id="tower23" id="tower23" transform="matrix(1 0 0 1 1501.9609 390.126)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_8_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			
-				<rect x="1218.675" y="895.023" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
-			<text transform="matrix(1 0 0 1 1232.6768 936.0283)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+	<a id="tower21"    data-id="tower21" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower21" id="tower21">
+			<polygon  data-id="tower21" id="tower21" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1631.729,346.788 1685.401,346.788 
+				1685.401,355.123 1693.402,355.123 1693.402,408.796 1684.401,408.796 1684.401,417.797 1631.729,417.797 1631.729,409.796 
+				1622.394,409.796 1622.394,355.455 1632.061,355.455 			"/>
+			<text data-id="tower21" id="tower21" transform="matrix(1 0 0 1 1637.0615 390.126)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_9_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
-			
-				<rect x="1069.988" y="651.325" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.677" height="66.675"/>
-			<text transform="matrix(1 0 0 1 1083.9902 692.3291)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+	<a id="tower30"   data-id="tower30" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower30" id="tower30">
+			<polygon data-id="tower30" id="tower30" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1080.659,414.796 1134.333,414.796 
+				1134.333,423.132 1142.334,423.132 1142.334,476.804 1133.332,476.804 1133.332,485.806 1080.659,485.806 1080.659,477.805 
+				1071.324,477.805 1071.324,423.464 1080.992,423.464 			"/>
+			<text data-id="tower30" id="tower30" transform="matrix(1 0 0 1 1085.9922 458.1348)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_10_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower34"   data-id="tower34" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower34" id="tower34">
+			<polygon data-id="tower34" id="tower34" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="866.041,410.382 918.688,420.827 
+				917.066,429.003 924.914,430.561 914.468,483.207 905.64,481.456 903.888,490.284 852.222,480.032 853.778,472.185 
+				844.623,470.368 855.199,417.066 864.681,418.948 			"/>
 			
-				<rect x="1070.988" y="855.019" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.677" height="66.675"/>
-			<text transform="matrix(1 0 0 1 1084.9902 896.0234)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<text data-id="tower34" id="tower34" transform="matrix(0.9809 0.1946 -0.1946 0.9809 862.8379 453.9302)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0034">NA</text>
 		</g>
 	</a>
-	<a id="tower_11_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower36"   data-id="tower36" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower36" id="tower36">
+			<polygon data-id="tower36" id="tower36" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="642.79,317.312 696.12,323.386 
+				695.176,331.667 703.126,332.572 697.05,385.9 688.106,384.882 687.088,393.825 634.753,387.863 635.659,379.913 
+				626.384,378.856 632.536,324.865 642.141,325.959 			"/>
 			
-				<rect x="934.306" y="688.998" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.676" height="66.675"/>
-			<text transform="matrix(1 0 0 1 948.3076 730.0029)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<text data-id="tower36" id="tower36" transform="matrix(0.9936 0.1132 -0.1132 0.9936 643.1841 360.9736)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0037">NA</text>
 		</g>
 	</a>
-	<a id="tower_12_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower28"    data-id="tower28" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower28" id="tower28">
 			
-				<rect x="1790.746" y="637.74" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
-			<text transform="matrix(1 0 0 1 1804.748 678.7451)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<rect data-id="tower28" id="tower28" x="1218.675" y="688.998" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
+			<text data-id="tower28" id="tower28" transform="matrix(1 0 0 1 1232.6768 730.0029)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_13_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower29"    data-id="tower29" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower29" id="tower29">
 			
-				<rect x="1778.125" y="934.982" transform="matrix(0.9472 0.3207 -0.3207 0.9472 406.2784 -530.1162)" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.678" height="66.676"/>
-			
-				<text transform="matrix(0.9472 0.3207 -0.3207 0.9472 1790.668 969.1289)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0034">U-A</text>
+				<rect data-id="tower29" id="tower29" x="1218.675" y="895.023" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
+			<text data-id="tower29" id="tower29" transform="matrix(1 0 0 1 1232.6768 936.0283)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_14_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower31"   data-id="tower31" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower31" id="tower31">
 			
-				<rect x="2036.821" y="1020.063" transform="matrix(0.949 0.3153 -0.3153 0.949 437.7712 -599.2932)" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.677" height="66.676"/>
-			
-				<text transform="matrix(0.949 0.3153 -0.3153 0.949 2049.3975 1054.3086)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0032">U-A</text>
+				<rect data-id="tower31" id="tower31" x="1069.988" y="651.325" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.677" height="66.675"/>
+			<text data-id="tower31" id="tower31" transform="matrix(1 0 0 1 1083.9902 692.3291)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_15_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower32"    data-id="tower32" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower32" id="tower32">
 			
-				<rect x="1218.675" y="390.126" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.676"/>
-			<text transform="matrix(1 0 0 1 1232.6768 431.1309)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<rect data-id="tower32" id="tower32" x="1070.988" y="855.019" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.677" height="66.675"/>
+			<text data-id="tower32" id="tower32" transform="matrix(1 0 0 1 1084.9902 896.0234)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_16_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower33"    data-id="tower33" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower33" id="tower33">
 			
-				<rect x="1351.691" y="346.788" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
-			<text transform="matrix(1 0 0 1 1365.6934 387.793)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<rect data-id="tower33" id="tower33" x="934.306" y="688.998" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.676" height="66.675"/>
+			<text data-id="tower33" id="tower33" transform="matrix(1 0 0 1 948.3076 730.0029)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_17_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a  id="tower16"    data-id="tower16" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower16" id="tower16">
 			
-				<rect x="1501.961" y="212.938" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.674" height="66.675"/>
-			<text transform="matrix(1 0 0 1 1515.9629 253.9434)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<rect data-id="tower16" id="tower16" x="1790.746" y="637.74" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
+			<text data-id="tower16" id="tower16" transform="matrix(1 0 0 1 1804.748 678.7451)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_18_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower17"    data-id="tower17" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower17" id="tower17">
 			
-				<rect x="1674.732" y="212.938" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.674" height="66.675"/>
-			<text transform="matrix(1 0 0 1 1688.7344 253.9434)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<rect data-id="tower17" id="tower17" x="1778.125" y="934.982" transform="matrix(0.9472 0.3207 -0.3207 0.9472 406.2784 -530.1162)" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.678" height="66.676"/>
+			
+				<text data-id="tower17" id="tower17" transform="matrix(0.9472 0.3207 -0.3207 0.9472 1790.668 969.1289)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0034">NA</text>
 		</g>
 	</a>
-	<a id="tower_19_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower18"   data-id="tower18" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower18" id="tower18">
 			
-				<rect x="1790.746" y="294.298" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
-			<text transform="matrix(1 0 0 1 1804.748 335.3027)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<rect data-id="tower18" id="tower18" x="2036.821" y="1020.063" transform="matrix(0.949 0.3153 -0.3153 0.949 437.7712 -599.2932)" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.677" height="66.676"/>
+			
+				<text data-id="tower18" id="tower18" transform="matrix(0.949 0.3153 -0.3153 0.949 2049.3975 1054.3086)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0032">NA</text>
 		</g>
 	</a>
-	<a id="tower_20_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower27"    data-id="tower27" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower27" id="tower27">
 			
-				<rect x="787.2" y="274.268" transform="matrix(0.9925 0.1219 -0.1219 0.9925 43.6252 -97.8545)" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.669" height="66.67"/>
-			
-				<text transform="matrix(0.9925 0.1219 -0.1219 0.9925 800.4253 312.7124)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.001">U-A</text>
+				<rect data-id="tower27" id="tower27" x="1218.675" y="390.126" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.676"/>
+			<text data-id="tower27" id="tower27" transform="matrix(1 0 0 1 1232.6768 431.1309)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_21_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower24"   data-id="tower24" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower24" id="tower24">
 			
-				<rect x="714.725" y="403.366" transform="matrix(0.9949 0.101 -0.101 0.9949 47.9312 -73.4135)" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.677" height="66.678"/>
-			
-				<text transform="matrix(0.9949 0.101 -0.101 0.9949 728.0557 442.2793)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0033">U-A</text>
+				<rect data-id="tower24" id="tower24" x="1351.691" y="346.788" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
+			<text data-id="tower24" id="tower24" transform="matrix(1 0 0 1 1365.6934 387.793)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_22_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower22"    data-id="tower22" class="tower-link">
+		<g opacity="0"  class="overlay"  data-id="tower22" id="tower22">
 			
-				<rect x="1622.394" y="684.662" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="66.34" height="81.344"/>
-			<text transform="matrix(1 0 0 1 1635.0615 734.002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<rect data-id="tower22" id="tower22" x="1501.961" y="212.938" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.674" height="66.675"/>
+			<text data-id="tower22" id="tower22" transform="matrix(1 0 0 1 1515.9629 253.9434)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
-	<a id="tower_23_" xlink:href="#" xlink:title="Tower">
-		<g opacity="0" class="overlay">
+	<a id="tower20"    data-id="tower20" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower20" id="tower20">
 			
-				<rect x="1623.394" y="890.129" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="66.341" height="81.344"/>
-			<text transform="matrix(1 0 0 1 1636.0615 939.4688)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">U-A</text>
+				<rect data-id="tower20" id="tower20" x="1674.732" y="212.938" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.674" height="66.675"/>
+			<text data-id="tower20" id="tower20" transform="matrix(1 0 0 1 1688.7344 253.9434)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
 		</g>
 	</a>
+	<a id="tower19"    data-id="tower19" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower19" id="tower19">
+			
+				<rect data-id="tower19" id="tower19" x="1790.746" y="294.298" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.675" height="66.675"/>
+			<text data-id="tower19" id="tower19" transform="matrix(1 0 0 1 1804.748 335.3027)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
+		</g>
+	</a>
+	<a id="tower35"   data-id="tower35" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower35" id="tower35" >
+			
+				<rect data-id="tower35" id="tower35" x="787.2" y="274.268" transform="matrix(0.9925 0.1219 -0.1219 0.9925 43.6252 -97.8545)" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.669" height="66.67"/>
+			
+				<text data-id="tower35" id="tower35" transform="matrix(0.9925 0.1219 -0.1219 0.9925 800.4253 312.7124)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.001">NA</text>
+		</g>
+	</a>
+	<a id="tower37"    data-id="tower37" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower37" id="tower37">
+			
+				<rect data-id="tower37" id="tower37" x="714.725" y="403.366" transform="matrix(0.9949 0.101 -0.101 0.9949 47.9312 -73.4135)" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="68.677" height="66.678"/>
+			
+				<text data-id="tower37" id="tower37" transform="matrix(0.9949 0.101 -0.101 0.9949 728.0557 442.2793)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.0033">NA</text>
+		</g>
+	</a>
+	<a  id="tower15"    data-id="tower15" class="tower-link">
+		<g opacity="0"  class="overlay" data-id="tower15" id="tower15">
+			
+				<rect data-id="tower15" id="tower15" x="1622.394" y="684.662" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="66.34" height="81.344"/>
+			<text data-id="tower15" id="tower15" transform="matrix(1 0 0 1 1635.0615 734.002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
+		</g>
+	</a>
+
+<a  id="tower14"    data-id="tower14" class="tower-link">
+		<g opacity="0" class="overlay" data-id="tower14" id="tower14">
+			<rect  data-id="tower14" id="tower14" x="1623.394" y="890.129" fill="#565656" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="66.341" height="81.344"/>
+			<text  data-id="tower14" id="tower14" transform="matrix(1 0 0 1 1636.0615 939.4688)" fill="#FFFFFF" font-family="'ArialMT'" font-size="24.003">NA</text>
+		</g>
+</a>
+
+<a id="a1"    data-id="a1" class="im-pin">
+<g class="overlay" data-id="a1" id="a1">
+	<circle data-id="a1" id="a1" fill="#63F7E5" cx="412.915" cy="534.085" r="10"/>
+	<circle data-id="a1" id="a1" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="412.915" cy="534.085" r="15"/>
 </g>
+</a>
+
+<a id="a2"    data-id="a2" class="im-pin">
+<g class="overlay" data-id="a2" id="a2">
+	<circle   data-id="a2" id="a2" fill="#63F7E5" cx="674.249" cy="560.751" r="10"/>
+	<circle   data-id="a2" id="a2" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="674.249" cy="560.751" r="15"/>
+</g>
+</a>
+
+<a id="a3"  data-id="a3" class="im-pin">
+<g class="overlay" data-id="a3" id="a3">
+	<circle data-id="a3" id="a3" fill="#63F7E5" cx="877.335" cy="759.667" r="10"/>
+	<circle data-id="a3" id="a3" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="877.335" cy="759.667" r="15"/>
+</g>
+</a>
+
+<a id="a4"   data-id="a4" class="im-pin">
+<g class="overlay" data-id="a4" id="a4">
+	<circle  data-id="a4" id="a4" fill="#63F7E5" cx="979.002" cy="888.001" r="10"/>
+	<circle  data-id="a4" id="a4" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="979.001" cy="888.001" r="15"/>
+</g>
+</a>
+
+<a id="a5"   data-id="a5" class="im-pin">
+<g class="overlay" data-id="a5" id="a5">
+	<circle data-id="a5" id="a5" fill="#63F7E5" cx="1176.669" cy="905.879" r="10"/>
+	<circle data-id="a5" id="a5" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1176.668" cy="905.879" r="15"/>
+</g>
+</a>
+
+<a id="a6"    data-id="a6" class="im-pin">
+<g class="overlay" data-id="a6" id="a6">
+	<circle data-id="a6" id="a6" fill="#63F7E5" cx="1176.669" cy="731.104" r="10"/>
+	<circle data-id="a6" id="a6" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1176.668" cy="731.104" r="15"/>
+</g>
+</a>
+
+<a id="a7"    data-id="a7" class="im-pin">
+<g class="overlay" data-id="a7" id="a7">
+	<circle  data-id="a7" id="a7" fill="#63F7E5" cx="1323.337" cy="802.763" r="10"/>
+	<circle  fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1323.336" cy="802.763" r="15"/>
+</g>
+</a>
+
+<a id="a8"   data-id="a8" class="im-pin">
+<g class="overlay" data-id="a8" id="a8">
+	<circle data-id="a8" id="a8" fill="#63F7E5" cx="1654.834" cy="534.375" r="10"/>
+	<circle data-id="a8" id="a8" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1654.833" cy="534.375" r="15"/>
+</g>
+</a>
+
+<a id="a9"    data-id="a9" class="im-pin">
+<g class="overlay" data-id="a9" id="a9">
+	<circle data-id="a9" id="a9" fill="#63F7E5" cx="1464.835" cy="635.823" r="10"/>
+	<circle data-id="a9" id="a9" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1464.834" cy="635.823" r="15"/>
+</g>
+</a>
+
+<a id="a10"   data-id="a10" class="im-pin">
+<g class="overlay" data-id="a10" id="a10">
+	<circle  data-id="a10" id="a10" fill="#63F7E5" cx="1439.685" cy="944.091" r="10"/>
+	<circle data-id="a10" id="a10" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1439.684" cy="944.091" r="15"/>
+</g>
+</a>
+
+<g display="none">
+	<circle display="inline" fill="#63F7E5" cx="1591.229" cy="880.729" r="10"/>
+	<circle display="inline" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1591.228" cy="880.729" r="15"/>
+</g>
+
+<a id="a11"    data-id="a11" class="im-pin">
+<g class="overlay" data-id="a11" id="a11">
+	<circle data-id="a11" id="a11" fill="#63F7E5" cx="1591.229" cy="703.758" r="10"/>
+	<circle data-id="a11" id="a11" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1591.228" cy="703.758" r="15"/>
+</g>
+</a>
+
+<a id="a12"   data-id="a12" class="im-pin">
+<g class="overlay" data-id="a12" id="a12">
+	<circle  data-id="a12" id="a12" fill="#63F7E5" cx="1262.668" cy="1244.333" r="10"/>
+	<circle data-id="a12" id="a12" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1262.667" cy="1244.333" r="15"/>
+</g>
+</a>
+
+<a id="a13"    data-id="a13" class="im-pin">
+<g class="overlay" data-id="a13" id="a13">
+	<circle data-id="a13" id="a13"  fill="#63F7E5" cx="1814.895" cy="527.103" r="10"/>
+	<circle data-id="a13" id="a13" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1814.894" cy="527.103" r="15"/>
+</g>
+</a>
+
+<a id="a14"  data-id="a14" class="im-pin">
+<g class="overlay" data-id="a14" id="a14">
+	<circle  data-id="a14" id="a14" fill="#63F7E5" cx="1273.562" cy="555.586" r="10"/>
+	<circle data-id="a14" id="a14" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1273.561" cy="555.586" r="15"/>
+</g>
+</a>
+
+<a id="a15"    data-id="a15" class="im-pin">
+<g class="overlay" data-id="a15" id="a15">
+	<circle  data-id="a15" id="a15" fill="#63F7E5" cx="927.896" cy="560.751" r="10"/>
+	<circle  data-id="a15" id="a15" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="927.895" cy="560.751" r="15"/>
+</g>
+</a>
+
+<a id="a16"   data-id="a16" class="im-pin">
+<g class="overlay" data-id="a16" id="a16">
+	<circle data-id="a16" id="a16" fill="#63F7E5" cx="1000.669" cy="467.667" r="10"/>
+	<circle data-id="a16" id="a16" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1000.668" cy="467.667" r="15"/>
+</g>
+</a>
+
+<a id="a17"    data-id="a17" class="im-pin">
+<g class="overlay" data-id="a17" id="a17">
+	<circle data-id="a17" id="a17" fill="#63F7E5" cx="1411.941" cy="310.939" r="10"/>
+	<circle data-id="a17" id="a17" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1411.94" cy="310.939" r="15"/>
+</g>
+</a>
+
+<a id="a18"  data-id="a18" class="im-pin">
+<g class="overlay" data-id="a18" id="a18">
+	<circle data-id="a18" id="a18" fill="#63F7E5" cx="1587.152" cy="384.279" r="10"/>
+	<circle data-id="a18" id="a18" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1587.151" cy="384.279" r="15"/>
+</g>
+</a>
+
+<a id="a19"    data-id="a19" class="im-pin">
+<g class="overlay" data-id="a19" id="a19">
+	<circle data-id="a19" id="a19" fill="#63F7E5" cx="1944.228" cy="1013.104" r="10"/>
+	<circle data-id="a19" id="a19" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1944.227" cy="1013.104" r="15"/>
+</g>
+</a>
+
+<a id="a20"   data-id="a20" class="im-pin">
+<g class="overlay" data-id="a20" id="a20">
+	<circle data-id="a20" id="a20" fill="#63F7E5" cx="2067.335" cy="1126.939" r="10"/>
+	<circle data-id="a20" id="a20" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="2067.334" cy="1126.939" r="15"/>
+</g>
+</a>
+
+<a id="a21"   data-id="a21" class="im-pin">
+<g class="overlay" data-id="a21" id="a21">
+	<circle data-id="a21" id="a21" fill="#63F7E5" cx="1242.562" cy="1080.043" r="10"/>
+	<circle data-id="a21" id="a21" fill="none" stroke="#63F7E5" stroke-width="5" stroke-miterlimit="10" cx="1242.561" cy="1080.043" r="15"/>
+</g>
+</a>
+
 </svg>

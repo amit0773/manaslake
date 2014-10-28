@@ -75,7 +75,7 @@ background-size: 71%;
 	
 		<image overflow="visible" enable-background="new    " width="2291" height="1441" xlink:href="wp-content/uploads/2014/08/siteplan.png"  transform="matrix(1 0 0 1 -4.882813e-004 0)">
 	</image>
-	<a id="tower13" xlink:href="tower13"  data-id="tower13"  class="tower-over">
+	<a id="tower13" xlink:href="#"  data-id="tower13"  class="tower-over">
 		<g opacity="0" class="overlay" data-id="tower13" id="highlighttower13">
 			<polygon  class ="dot" data-id="tower13" id="tower13" fill="#FF5B00" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1497.544,635.823 
 				1547.55,635.823 1547.55,646.324 1557.552,646.324 1557.552,697.331 1548.051,697.331 1548.051,706.332 1497.544,706.332 
@@ -144,7 +144,7 @@ background-size: 71%;
 			</g>
 		</g>
 	</a>
-	<a id="tower12" xlink:href="tower12"   data-id="tower12" class="tower-link">
+	<a id="tower12" xlink:href="#"  data-id="tower12"  class="tower-over">
 		<g opacity="0" class="overlay " data-id="tower12" id="highlighttower12">
 			<polygon  class="dot" data-id="tower12" id="tower12" fill="#FF5B00" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="1497.544,770.507 
 				1547.55,770.507 1547.55,781.008 1557.552,781.008 1557.552,832.015 1548.051,832.015 1548.051,841.016 1497.544,841.016 
@@ -282,8 +282,9 @@ background-size: 71%;
 				<text transform="matrix(1.001 0 0 1 1500.4307 800.0645)"><tspan x="0" y="0" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">2BHK</tspan><tspan x="1.706" y="2.698" fill="#58595B" font-family="'KievitOT-Regular'" font-size="2.698">08</tspan></text>
 			</g>
 		</g>
-	</a>
-	<a id="tower11" xlink:href="tower11"   data-id="tower11" class="tower-link">
+		</a>
+	
+	<a id="tower11" xlink:href="#"   data-id="tower11" class="Tower">
 		<g opacity="0" class="overlay" data-id="tower11" id="highlighttower11">
 			
 				<rect class="dot" data-id="tower11" id="tower11" x="1488.043" y="908.023" fill="#FF5B00" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="69.509" height="67.509"/>

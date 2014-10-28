@@ -245,14 +245,14 @@
 			});
 
 			// Hashchange
-			$(window).on('hashchange', function() {
+			/*$(window).on('hashchange', function() {
 				var id = location.hash.slice(1);
 				self.showLocation(id, 800);
 
 				// Tooltip
 				var locationData = self.getLocationData(id);
 				self.showTooltip(locationData);
-			});
+			});*/
 			$(document).on({
 				mouseover: function (e) {
 				console.log('eeeeeeeeeeee');

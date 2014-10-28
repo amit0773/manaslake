@@ -211,7 +211,8 @@ if (typeof window['vc_tabsBehaviour'] !== 'function') {
           if (old_version) {
             $tabs.tabs("select", jQuery(this).attr('href'));
           } else {
-            $tabs.tabs("option", "active", jQuery(jQuery(this).attr('href')).index() - 1);
+           //commented on  29sep2014 (tabs were auto rotating on click of tab) $tabs.tabs("option", "active", jQuery(jQuery(this).attr('href')).index() - 1);
+		    $tabs.tabs("option", "active", jQuery(jQuery(this).attr('href')).index());
           }
           return false;
         }
