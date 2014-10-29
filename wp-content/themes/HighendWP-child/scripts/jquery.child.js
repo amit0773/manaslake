@@ -29,7 +29,7 @@ return;
 	
         $j(".contact").click(function () {
             $j("#scrolltriggered").show();
-	$j('#scrolltriggered').css({bottom:'0px',display:'block'});
+	$j('#scrolltriggered').css({bottom:'0px',visibility:'visible'});
         });
 
    
