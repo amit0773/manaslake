@@ -27,7 +27,7 @@ return;
 		}
 		
 	
-        $j(".music").click(function () {
+        $j(".contact").click(function () {
             $j("#scrolltriggered").show();
 	$j('#scrolltriggered').css({bottom:'0px'});
         });
