@@ -93,6 +93,8 @@ function add_child_theme_js(){
 	 wp_enqueue_script('hb-child-custom-js', site_url() . '/wp-content/themes/HighendWP-child/scripts/jquery.child.js', array(
             'jquery'
         ));
+		
+		wp_enqueue_script('formidable');
 }
 add_action('wp_enqueue_scripts', 'add_child_theme_js');
 

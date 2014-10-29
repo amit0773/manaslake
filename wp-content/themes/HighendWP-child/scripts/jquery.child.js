@@ -25,4 +25,13 @@ return;
 		$j('.substainability').remove();
 			$j('.mobile-hide').remove();
 		}
+		
+	
+        $j("#music").click(function () {
+            $j("#scrolltriggered").show();
+	$j('#scrolltriggered').css({bottom:'0px'});
+        });
+
+   
+		
 });

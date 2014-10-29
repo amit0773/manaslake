@@ -191,6 +191,7 @@
 <!-- END #hb-modal-overlay -->
 
 <?php wp_footer(); ?>
+
 </body>
 <!-- END body -->
 

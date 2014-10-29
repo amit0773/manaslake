@@ -153,6 +153,30 @@ body{
 .main-navigation{
 	display:none;
 }*/
+
+/**** Form ****/
+#scrolltriggered label{
+ text-indent: 0px !important; 
+ margin-bottom:5px;
+}
+#scrolltriggered input{
+	background-color:rgba(255, 255, 255, 0.08) !important;
+}
+#scrolltriggered select{
+	background-color:rgba(255, 255, 255, 0.08) !important;
+	border:1px solid #fff !important;
+	height: 32px;
+}
+#scrolltriggered textarea{
+	border:1px solid #fff !important;
+	background-color:rgba(255, 255, 255, 0.08) !important
+}
+#scrolltriggered #inscroll form input[type=submit]{
+	background: #000;
+	background-color: #000 !important;
+	border: 0px !important;
+	height:30px !important;
+}
 #main-content {
 	overflow: visible!important;
 }
@@ -193,7 +217,9 @@ body{
 body #hb-page-title {
 	margin-top:0px;
 }
-
+body #scrolltriggered {
+	background-color: #FFAA71 !important;
+}
 
 /* Youtube Video */
 .ytcplayer-wrapper,
@@ -278,6 +304,7 @@ html .tp-caption.starimage {
 }
 }
 
+
 /* Mobile Css */
 @media (max-width: 767px) {
 	.home #header-bar{
@@ -344,3 +371,4 @@ overflow: hidden;
 	height:165px !important
 }
 }
+
